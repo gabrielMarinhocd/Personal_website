@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabriel Blog</title>
+    <link rel="icon" href="../imagens/icon.png" />
+    <link rel="stylesheet" type="text/css" href="CSS/css.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <style>
+      .calculadora {
+        margin-top: 40px;
+        border: solid 1px #000;
+        padding: 20px;
+        background-color: #2e2e2e;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px #000;
+      }
+
+      .btn {
+        width: 60px;
+        height: 50px;
+        margin: 5px;
+        box-shadow: 1px 1px 1px #000;
+      }
+
+      .clear {
+        width: 130px;
+      }
+
+      .enter {
+        height: 110px;
+      }
+
+      .zero {
+        width: 130px;
+      }
+
+      .resultado {
+        text-align: right;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: solid 1px #000;
+        box-shadow: 1px 1px 1px #000;
+      }
+    </style>
+  </head>
+  <body style="background-color: blue;">
+    <div class="container" style="background-color: white;">
+      <div class="menu">
+        <h2 style="color: white;">
+          G.M <span style="color: black;">Blog</span>
+        </h2>
+        <div class="link">
+          <p>
+            <a href="index.html"><span class="menuLink">Home</span></a>
+            <a href="#"><span class="menuLink">Sobre</span></a>
+            <a href="#"><span class="menuLink">Trabalhos Feitos</span></a>
+            <a href="#"><span class="menuLink">Codigos</span></a>
+            <a href="./App_Mata_Mosquito/inicio_jogo.html"
+              ><span class="menuLink">Jogo Mata Mosquito</span></a
+            >
+            <a href="./Pesquisa-de-usuarios/index.html"
+              ><span class="menuLink">Pesquisa de usuários</span></a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="principal">
+        <div class="conteudo" style="width: 55%;">
+          <h2 id="titulo">APP Calculadora</h2>
+          <hr />
+          <div class="container">
+            <div class="row">
+              <div class="col d-flex justify-content-center">
+                <br />
+
+                <div class="calculadora">
+                  <input
+                    id="resultado"
+                    type="text"
+                    class="form-control resultado"
+                    placeholder="0"
+                    disabled="disabled"
+                  />
+
+                  <div class="row">
+                    <button
+                      onclick="calcular('acao', 'c')"
+                      type="button"
+                      class="btn btn-dark btn-lg clear font-weight-light"
+                    >
+                      C
+                    </button>
+                    <button
+                      onclick="calcular('acao', '/')"
+                      type="button"
+                      class="btn btn-dark btn-lg font-weight-light"
+                    >
+                      /
+                    </button>
+                    <button
+                      onclick="calcular('acao', '*')"
+                      type="button"
+                      class="btn btn-dark btn-lg font-weight-light"
+                    >
+                      x
+                    </button>
+                  </div>
+
+                  <div class="row">
+                    <button
+                      onclick="calcular('valores', '7')"
+                      type="button"
+                      class="btn btn-dark btn-lg font-weight-light"
+                    >
+                      7
+                    </button>
+                    <button
+                      onclick="calcular('valores', '8')"
+                      type="button"
+                      class="btn btn-dark btn-lg font-weight-light"
+                    >
+                      8
+                    </button>
+                    <button
+                      onclick="calcular('valores', '9')"
+                      type="button"
+                      class="btn btn-dark btn-lg font-weight-light"
+                    >
+                      9
+                    </button>
+                    <button
+                      onclick="calcular('acao', '-')"
+                      type="button"
+                      class="btn btn-dark btn-lg font-weight-light"
+                    >
+                      -
+                    </button>
+                  </div>
+
+                  <div class="row">
+                    <button
+                      onclick="calcular('valores', '4')"
+                      type="button"
+                      class="btn btn-dark btn-lg font-weight-light"
+                    >
+                      4
+                    </button>
+                    <button
+                      onclick="calcular('valores', '5')"
+                      type="button"
+                      class="btn btn-dark btn-lg font-weight-light"
+                    >
+                      5
+                    </button>
+                    <button
+                      onclick="calcular('valores', '6')"
+                      type="button"
+                      class="btn btn-dark btn-lg font-weight-light"
+                    >
+                      6
+                    </button>
+                    <button
+                      onclick="calcular('acao', '+')"
+                      type="button"
+                      class="btn btn-dark btn-lg font-weight-light"
+                    >
+                      +
+                    </button>
+                  </div>
+
+                  <div class="row">
+                    <button
+                      onclick="calcular('valores', '1')"
+                      type="button"
+                      class="btn btn-dark btn-lg font-weight-light"
+                    >
+                      1
+                    </button>
+                    <button
+                      onclick="calcular('valores', '2')"
+                      type="button"
+                      class="btn btn-dark btn-lg font-weight-light"
+                    >
+                      2
+                    </button>
+                    <button
+                      onclick="calcular('valores', '3')"
+                      type="button"
+                      class="btn btn-dark btn-lg font-weight-light"
+                    >
+                      3
+                    </button>
+                    <button
+                      onclick="calcular('acao', '=')"
+                      type="button"
+                      class="btn btn-dark btn-lg enter"
+                    >
+                      =
+                    </button>
+                  </div>
+
+                  <div class="row" style="margin-top: -60px;">
+                    <button
+                      onclick="calcular('valores', '0')"
+                      type="button"
+                      class="btn btn-dark zero btn-lg font-weight-light"
+                    >
+                      0
+                    </button>
+                    <button
+                      onclick="calcular('acao', '.')"
+                      type="button"
+                      class="btn btn-dark btn-lg font-weight-light"
+                    >
+                      .
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="conteudo-adcional"></div>
+      </div>
+      <div class="rodape">
+        <p>
+          Site produzido por Gabriel Marinho | Email:
+          gabrielmarinhodossantoscd@gmail.com
+        </p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      function calcular(tipo, valores) {
+        if (tipo === 'acao') {
+          if (valores === 'c') {
+            // limparo visor (id (resultado))
+            document.getElementById('resultado').value = '';
+          }
+
+          if (
+            valores === '+' ||
+            valores === '-' ||
+            valores === '*' ||
+            valores === '/' ||
+            valores === '.'
+          ) {
+            document.getElementById('resultado').value += valores;
+          }
+
+          if (valores === '=') {
+            // Coverte o numero de string para float ou int, fazendo a conta no visor
+            var valor_campo = eval(document.getElementById('resultado').value);
+            document.getElementById('resultado').value = valor_campo;
+          }
+        } else if (tipo === 'valores') {
+          // Imprimindo o numeros no visor
+          document.getElementById('resultado').value += valores;
+        }
+      }
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

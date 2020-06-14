@@ -1,0 +1,52 @@
+body {
+  background-color: whitesmoke;
+}
+.container {
+  margin: 10px;
+  padding: 1em;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+.grid {
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+  font-size: 16px;
+}
+.imagens {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+li {
+  font-size: 17px;
+  margin-left: 2em;
+}
+.grid-text {
+  display: grid;
+  grid-template-columns: 5em 13em;
+  align-items: center;
+}
+.grid-iten-img {
+  margin-left: 10em;
+}
+
+.grid-iten-img:hover {
+  background-color: yellow;
+}
+h5 {
+  text-align: center;
+}
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+h6 {
+  text-align: center;
+}
+.carrego-com-sucesso {
+  margin-bottom: 10px;
+}
