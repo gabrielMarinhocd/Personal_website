@@ -15,7 +15,6 @@ window.addEventListener('load', () => {
   let tamanhaoDeTela = $(window).width();
   if (tamanhaoDeTela < 1000) {
     logo.innerHTML = 'GM';
-    console.log($(window).width());
   } else {
     logo.innerHTML = 'Gabriel Marinho';
   }
@@ -23,7 +22,6 @@ window.addEventListener('load', () => {
     let tamanhaoDeTela = $(window).width();
     if (tamanhaoDeTela < 1000) {
       logo.innerHTML = 'GM';
-      console.log($(window).width());
     } else {
       logo.innerHTML = 'Gabriel Marinho';
     }
@@ -48,3 +46,67 @@ function verificaHora() {
   }
   document.querySelector('#boas-vindas').innerHTML = time;
 }
+
+const menu = [
+  {
+    titulo: 'Projeto AWP Brasil',
+    link: 'https://atcawpbrasil.com.br/',
+    img: './Imagens/projetos-img/Assistencia_AWP.png',
+  },
+  {
+    titulo: 'APP Mata Mosquito',
+    link: './Projetos/App_Mata_Mosquito/inicio_jogo.html',
+    img: './Imagens/projetos-img/App-mata-mosquito.png',
+  },
+  {
+    titulo: 'Pesquisa de usuários ',
+    link: './Projetos/Pesquisa-de-usuarios/index.html',
+    img: './Imagens/projetos-img/Pesquisa_de_usuarios.png',
+  },
+  {
+    titulo: 'Pokedex',
+    link: './Projetos/pokedex-master/index.html',
+    img: './Imagens/projetos-img/Pokedez.png',
+  },
+  {
+    titulo: 'Controlhe Financeiro Pessoal',
+    link: 'https://gabriel-controlhe-financeiro.herokuapp.com/',
+    img: './Imagens/projetos-img/Controlhe-finaceiro.png',
+  },
+];
+
+const insertMenuDropdown = () => {
+  const idDropdown = document.querySelector('#dropdown1');
+  const navMobile = document.querySelector('#dropdown-mobile');
+
+  let liHTML =
+    '<li><a href="#projetos">Todos</a></li> <li class="divider" tabindex="0"></li>';
+  menu.forEach(({ titulo, link }) => {
+    liHTML += ` <li>
+        <a href="${link}" target="_blank"
+          >${titulo}</a
+        >
+      </li>`;
+  });
+  idDropdown.innerHTML = liHTML;
+  navMobile.innerHTML = liHTML;
+};
+
+const insertCarosel = () => {
+  const caroselHTML = document.querySelector('#carousel');
+  let gradeHTML = '';
+  menu.forEach(({ titulo, link, img }) => {
+    gradeHTML += `  <a class="carousel-item modal-trigger"  href="${link}" target="_blank"
+              ><img
+                class="img-carosel"
+                src="${img}"
+              />
+              <span>${titulo}</span>
+            </a>`;
+  });
+
+  caroselHTML.innerHTML = gradeHTML;
+};
+
+insertMenuDropdown();
+insertCarosel();
