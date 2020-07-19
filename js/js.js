@@ -73,6 +73,11 @@ const menu = [
     link: 'https://gabriel-controlhe-financeiro.herokuapp.com/',
     img: './Imagens/projetos-img/Controlhe-finaceiro.png',
   },
+  {
+    titulo: 'Rádio Podcast',
+    link: './Projetos/radio-podcast-pronto/index.html',
+    img: './Imagens/projetos-img/Radio_Podcast.png',
+  },
 ];
 
 const insertMenuDropdown = () => {
