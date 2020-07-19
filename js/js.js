@@ -78,6 +78,11 @@ const menu = [
     link: './Projetos/radio-podcast-pronto/index.html',
     img: './Imagens/projetos-img/Radio_Podcast.png',
   },
+  {
+    titulo: 'Manipulador de Cores',
+    link: './Projetos/Manipulando_cores/index.html',
+    img: './Imagens/projetos-img/Manipulador_de_cores.png',
+  },
 ];
 
 const insertMenuDropdown = () => {
