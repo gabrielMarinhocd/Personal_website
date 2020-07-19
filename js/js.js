@@ -90,7 +90,7 @@ const insertMenuDropdown = () => {
   const navMobile = document.querySelector('#dropdown-mobile');
 
   let liHTML =
-    '<li><a href="#projetos">Todos</a></li> <li class="divider" tabindex="0"></li>';
+    '<li class="center"><a href="#projetos">Todos</a></li> <li class="divider" tabindex="0"></li>';
   menu.forEach(({ titulo, link }) => {
     liHTML += ` <li>
         <a href="${link}" target="_blank"
