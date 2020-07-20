@@ -69,7 +69,7 @@ const menu = [
     img: './Imagens/projetos-img/Pokedez.png',
   },
   {
-    titulo: 'Controlhe Financeiro Pessoal',
+    titulo: 'Cotrole Financeiro Pessoal',
     link: 'https://gabriel-controlhe-financeiro.herokuapp.com/',
     img: './Imagens/projetos-img/Controlhe-finaceiro.png',
   },
