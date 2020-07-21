@@ -49,39 +49,65 @@ function verificaHora() {
 
 const menu = [
   {
+    id: 'AWP-Brasil',
     titulo: 'Projeto AWP Brasil',
     link: 'https://atcawpbrasil.com.br/',
     img: './Imagens/projetos-img/Assistencia_AWP.png',
   },
   {
+    id: 'APP-Mata-Mosquito',
     titulo: 'APP Mata Mosquito',
     link: './Projetos/App_Mata_Mosquito/inicio_jogo.html',
     img: './Imagens/projetos-img/App-mata-mosquito.png',
   },
   {
-    titulo: 'Pesquisa de usuários ',
+    id: 'Pesquisa-de-Usuarios',
+    titulo: 'Pesquisa de Usuários ',
     link: './Projetos/Pesquisa-de-usuarios/index.html',
     img: './Imagens/projetos-img/Pesquisa_de_usuarios.png',
   },
   {
+    id: 'Pokedex',
     titulo: 'Pokedex',
     link: './Projetos/pokedex-master/index.html',
     img: './Imagens/projetos-img/Pokedez.png',
   },
   {
+    id: 'Controle-Financeiro-Pessoal',
     titulo: 'Controle Financeiro Pessoal',
     link: 'https://gabriel-controlhe-financeiro.herokuapp.com/',
     img: './Imagens/projetos-img/Controlhe-finaceiro.png',
   },
   {
+    id: 'Radio-Podcast',
     titulo: 'Rádio Podcast',
     link: './Projetos/radio-podcast-pronto/index.html',
     img: './Imagens/projetos-img/Radio_Podcast.png',
   },
   {
+    id: 'Manipulador-de-Cores',
     titulo: 'Manipulador de Cores',
     link: './Projetos/Manipulando_cores/index.html',
     img: './Imagens/projetos-img/Manipulador_de_cores.png',
+  },
+];
+
+const redesSociais = [
+  {
+    id: 'email',
+    link: 'mailto:gabrielmarinhodossantoscd@gmail.com',
+    img:
+      './Imagens/email-open-envelope-in-a-rounded-square_icon-icons.com_70497.png',
+  },
+  {
+    id: 'github',
+    link: 'https://github.com/gabrielMarinhocd/',
+    img: './Imagens/github-logo_icon-icons.com_73546.png',
+  },
+  {
+    id: 'email',
+    link: 'https://www.linkedin.com/in/gabriel-marinho-5094bb132',
+    img: './Imagens/linkedin-sign_icon-icons.com_73508.png',
   },
 ];
 
@@ -91,9 +117,9 @@ const insertMenuDropdown = () => {
 
   let liHTML =
     '<li class="center"><a href="#projetos">Todos</a></li> <li class="divider" tabindex="0"></li>';
-  menu.forEach(({ titulo, link }) => {
-    liHTML += ` <li>
-        <a href="${link}" target="_blank"
+  menu.forEach(({ id, titulo, link }) => {
+    liHTML += ` <li id="li-${id}">
+        <a id="link-${id}" href="${link}" target="_blank"
           >${titulo}</a
         >
       </li>`;
@@ -105,18 +131,36 @@ const insertMenuDropdown = () => {
 const insertCarosel = () => {
   const caroselHTML = document.querySelector('#carousel');
   let gradeHTML = '';
-  menu.forEach(({ titulo, link, img }) => {
-    gradeHTML += `  <a class="carousel-item modal-trigger"  href="${link}" target="_blank"
-              ><img
+  menu.forEach(({ id, titulo, link, img }) => {
+    gradeHTML += `  <a id="link-${id}" class="carousel-item modal-trigger"  href="${link}" target="_blank"
+              ><img id="img-${id}"
                 class="img-carosel"
                 src="${img}"
               />
-              <span>${titulo}</span>
+              <span id="span-${id}" >${titulo}</span>
             </a>`;
   });
 
   caroselHTML.innerHTML = gradeHTML;
 };
 
+const inserRedesSociais = () => {
+  const redesSociaisHTML = document.querySelector('#redes-sociais');
+  let gradeHTML = '';
+  redesSociais.forEach(({ id, link, img }) => {
+    gradeHTML += ` <div class="zoom" id="${id}">
+            <a id="link-${id}" href='${link}'>
+              <img
+                id="img-${id}"
+                src="${img}"
+                class="img-responsive"
+            /></a>
+          </div>`;
+  });
+
+  redesSociaisHTML.innerHTML = gradeHTML;
+};
+
 insertMenuDropdown();
 insertCarosel();
+inserRedesSociais();
