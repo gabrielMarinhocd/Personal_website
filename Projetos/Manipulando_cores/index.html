@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="./css/css.css" />
+    <title>Gabriel Marinho</title>
+    <link rel="icon" href="../imagens/icon.png" />
+  </head>
+  <body id="body">
+    <div class="container">
+      <div class="conteudo">
+        <hr />
+        <h2>Manipulador de Cores</h2>
+        <hr />
+        <div class="grid-container">
+          <div class="grid-item title">(R) Vermelho:</div>
+          <div class="grid-item">
+            <input
+              type="range"
+              name="red"
+              id="red"
+              min="0"
+              max="255"
+              value="0"
+            />
+          </div>
+          <div class="grid-item">
+            <span id="vRed"></span>
+          </div>
+
+          <div class="grid-item title">(G) Verde:</div>
+          <div class="grid-item">
+            <input
+              type="range"
+              name="green"
+              id="green"
+              min="0"
+              max="255"
+              value="0"
+            />
+          </div>
+          <div class="grid-item">
+            <span id="vGreen"></span>
+          </div>
+
+          <div class="grid-item">(B) Azul:</div>
+          <div class="grid-item">
+            <input
+              type="range"
+              name="blue"
+              id="blue"
+              min="0"
+              max="255"
+              value="0"
+            />
+          </div>
+          <div class="grid-item">
+            <span id="vBlue"></span>
+          </div>
+        </div>
+        <hr />
+        <div class="centralizar">
+          <div id="quadro"></div>
+        </div>
+        <div class="mostrar">
+          <span id="mostrar">rgb(0, 0, 0)</span>
+        </div>
+      </div>
+    </div>
+    <script src="./js/js.js"></script>
+  </body>
+</html>
