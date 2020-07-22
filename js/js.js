@@ -90,6 +90,18 @@ const menu = [
     link: './Projetos/Manipulando_cores/index.html',
     img: './Imagens/projetos-img/Manipulador_de_cores.png',
   },
+  {
+    id: 'React-Countries',
+    titulo: 'React Countries',
+    link: 'https://gabriel-react-countries.herokuapp.com/',
+    img: './Imagens/projetos-img/React-Countries.png',
+  },
+  {
+    id: 'React-salary',
+    titulo: 'React Salary',
+    link: 'https://grabriel-salary.herokuapp.com/',
+    img: './Imagens/projetos-img/React-salary.png',
+  },
 ];
 
 const redesSociais = [
