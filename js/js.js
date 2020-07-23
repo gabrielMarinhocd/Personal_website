@@ -49,58 +49,64 @@ function verificaHora() {
 
 const menu = [
   {
-    id: 'AWP-Brasil',
+    id: 'awp-brasil',
     titulo: 'Projeto AWP Brasil',
     link: 'https://atcawpbrasil.com.br/',
     img: './Imagens/projetos-img/Assistencia_AWP.png',
   },
   {
-    id: 'APP-Mata-Mosquito',
+    id: 'app-mata-mosquito',
     titulo: 'APP Mata Mosquito',
     link: './Projetos/App_Mata_Mosquito/inicio_jogo.html',
     img: './Imagens/projetos-img/App-mata-mosquito.png',
   },
   {
-    id: 'Pesquisa-de-Usuarios',
+    id: 'pesquisa-de-usuarios',
     titulo: 'Pesquisa de Usuários ',
     link: './Projetos/Pesquisa-de-usuarios/index.html',
     img: './Imagens/projetos-img/Pesquisa_de_usuarios.png',
   },
   {
-    id: 'Pokedex',
+    id: 'pokedex',
     titulo: 'Pokedex',
     link: './Projetos/pokedex-master/index.html',
     img: './Imagens/projetos-img/Pokedez.png',
   },
   {
-    id: 'Controle-Financeiro-Pessoal',
+    id: 'controle-financeiro-pessoal',
     titulo: 'Controle Financeiro Pessoal',
     link: 'https://gabriel-controlhe-financeiro.herokuapp.com/',
     img: './Imagens/projetos-img/Controlhe-finaceiro.png',
   },
   {
-    id: 'Radio-Podcast',
+    id: 'radio-podcast',
     titulo: 'Rádio Podcast',
     link: './Projetos/radio-podcast-pronto/index.html',
     img: './Imagens/projetos-img/Radio_Podcast.png',
   },
   {
-    id: 'Manipulador-de-Cores',
+    id: 'manipulador-de-cores',
     titulo: 'Manipulador de Cores',
     link: './Projetos/Manipulando_cores/index.html',
     img: './Imagens/projetos-img/Manipulador_de_cores.png',
   },
   {
-    id: 'React-Countries',
+    id: 'react-countries',
     titulo: 'React Countries',
     link: 'https://gabriel-react-countries.herokuapp.com/',
     img: './Imagens/projetos-img/React-Countries.png',
   },
   {
-    id: 'React-salary',
+    id: 'react-salary',
     titulo: 'React Salary',
     link: 'https://grabriel-salary.herokuapp.com/',
     img: './Imagens/projetos-img/React-salary.png',
+  },
+  {
+    id: 'falcao-pipa',
+    titulo: 'Falcão Pipa - TCC',
+    link: 'https://falcao-pipa.herokuapp.com/ ',
+    img: './Imagens/projetos-img/Falcao_pipa.png',
   },
 ];
 
