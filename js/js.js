@@ -94,7 +94,7 @@ const menu = [
     id: 'react-countries',
     titulo: 'React Countries',
     link: 'https://gabriel-react-countries.herokuapp.com/',
-    img: './Imagens/projetos-img/React-Countries.png',
+    img: './Imagens/projetos-img/Rect_juros_compostos.png',
   },
   {
     id: 'react-salary',
@@ -103,10 +103,10 @@ const menu = [
     img: './Imagens/projetos-img/React-salary.png',
   },
   {
-    id: 'falcao-pipa',
-    titulo: 'Falcão Pipa - TCC',
-    link: 'https://falcao-pipa.herokuapp.com/ ',
-    img: './Imagens/projetos-img/Falcao_pipa.png',
+    id: 'rect-juros-compostosy',
+    titulo: 'Rect Juros Compostos',
+    link: 'https://react-juros-compostos.herokuapp.com/',
+    img: './Imagens/projetos-img/React-salary.png',
   },
 ];
 
@@ -167,7 +167,7 @@ const inserRedesSociais = () => {
   let gradeHTML = '';
   redesSociais.forEach(({ id, link, img }) => {
     gradeHTML += ` <div class="zoom" id="${id}">
-            <a id="link-${id}" href='${link}'>
+            <a id="link-${id}" href='${link}' target="_blank">
               <img
                 id="img-${id}"
                 src="${img}"
@@ -182,3 +182,10 @@ const inserRedesSociais = () => {
 insertMenuDropdown();
 insertCarosel();
 inserRedesSociais();
+
+// {
+// id: 'falcao-pipa',
+//   titulo: 'Falcão Pipa - TCC',
+//     link: 'https://falcao-pipa.herokuapp.com/ ',
+//       img: './Imagens/projetos-img/Falcao_pipa.png',
+//   },
