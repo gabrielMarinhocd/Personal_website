@@ -103,10 +103,10 @@ const menu = [
     img: './Imagens/projetos-img/React-salary.png',
   },
   {
-    id: 'rect-juros-compostosy',
-    titulo: 'Rect Juros Compostos',
+    id: 'react-juros-compostosy',
+    titulo: 'React - Juros Compostos',
     link: 'https://react-juros-compostos.herokuapp.com/',
-    img: './Imagens/projetos-img/React-salary.png',
+    img: './Imagens/projetos-img/Rect_juros_compostos.png',
   },
 ];
 
