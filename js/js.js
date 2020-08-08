@@ -94,7 +94,7 @@ const menu = [
     id: 'react-countries',
     titulo: 'React Countries',
     link: 'https://gabriel-react-countries.herokuapp.com/',
-    img: './Imagens/projetos-img/Rect_juros_compostos.png',
+    img: './Imagens/projetos-img/React-Countries.png',
   },
   {
     id: 'react-salary',
