@@ -1,0 +1,47 @@
+body {
+  background-color: whitesmoke;
+}
+.container {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: white;
+}
+
+.zona {
+  text-align: center;
+}
+
+.zona-libertadores {
+  color: blue;
+}
+
+.zona-preLibertadores {
+  color: orange;
+}
+
+.zona-sulAmericana {
+  color: green;
+}
+
+.zona-rebaixamento {
+  color: red;
+}
+
+@media (max-width: 560px) {
+  .brasao {
+    width: 60%;
+  }
+}
+@media (min-width: 560px) {
+  .brasao {
+    width: 25px;
+  }
+}
+
+table {
+  align-items: center;
+}
+
+.titulos-td {
+  color: rgba(189, 189, 189, 0.986);
+}
