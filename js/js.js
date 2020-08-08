@@ -108,6 +108,12 @@ const menu = [
     link: 'https://react-juros-compostos.herokuapp.com/',
     img: './Imagens/projetos-img/Rect_juros_compostos.png',
   },
+  {
+    id: 'tabela-brasileirão',
+    titulo: 'Tabela Brasileirão',
+    link: './Projetos/Brasileirão/index.html',
+    img: './Imagens/projetos-img/Tabela-Brasileirao.png',
+  },
 ];
 
 const redesSociais = [
