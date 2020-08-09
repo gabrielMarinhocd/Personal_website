@@ -57,3 +57,31 @@ table {
 .center {
   text-align: center;
 }
+
+.box {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 1%;
+}
+
+.box-blue {
+  background-color: blue;
+}
+
+.box-orange {
+  background-color: orange;
+}
+
+.box-green {
+  background-color: green;
+}
+
+.box-red {
+  background-color: red;
+}
+
+.indice {
+  margin-right: 10%;
+  padding: 1%;
+}
