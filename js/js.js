@@ -110,7 +110,7 @@ const menu = [
   },
   {
     id: 'tabela-brasileirão',
-    titulo: 'Tabela Brasileirão',
+    titulo: 'Tabela do Brasileirão',
     link: './Projetos/Brasileirão/index.html',
     img: './Imagens/projetos-img/Tabela-Brasileirao.png',
   },

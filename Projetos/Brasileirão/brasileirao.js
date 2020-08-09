@@ -10112,7 +10112,7 @@ const times = [
             },
             '25': {
               id: '25',
-              pos: '11',
+              pos: '12',
               'ganho-pos': '1',
               pg: { total: '49', mandante: '27', visitante: '22' },
               j: { total: '38', mandante: '19', visitante: '19' },
@@ -10282,7 +10282,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/atletico-pr',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/athletico.png',
-        cor: '#A81A31;#282C32',
+        cor1: 'red',
+        cor2: 'black',
       },
       '4': {
         id: '4',
@@ -10294,7 +10295,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/atletico-mg/',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/atletico-mg.png',
-        cor: '#282C32;#EA5A1B',
+        cor1: 'black',
+        cor2: 'white',
       },
       '29': {
         id: '29',
@@ -10306,7 +10308,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/avai',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/avai.png',
-        cor: '#2E94BC;#EA5A1B',
+        cor1: '#2E94BC',
+        cor2: 'white',
       },
       '30': {
         id: '30',
@@ -10318,7 +10321,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/bahia',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/bahia.png',
-        cor: '#2E94BC;#A81A31',
+        cor1: '#2E94BC',
+        cor2: 'red',
       },
       '5': {
         id: '5',
@@ -10330,7 +10334,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/botafogo',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/botafogo.png',
-        cor: '#282C32;#EA5A1B',
+        cor1: 'black',
+        cor2: 'white',
       },
       '33': {
         id: '33',
@@ -10342,7 +10347,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/ceara',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/ceara.png',
-        cor: '#282C32;#EA5A1B',
+        cor1: 'black',
+        cor2: 'white',
       },
       '695': {
         id: '695',
@@ -10354,7 +10360,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/chapecoense/',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/chapecoense.png',
-        cor: '#329B46;#EA5A1B',
+        cor1: '#329B46',
+        cor2: 'white',
       },
       '6': {
         id: '6',
@@ -10366,7 +10373,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/corinthians',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/corinthians.png',
-        cor: '#282C32;#EA5A1B',
+        cor1: 'black',
+        cor2: 'white',
       },
       '9': {
         id: '9',
@@ -10378,7 +10386,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/cruzeiro',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/cruzeiro.png',
-        cor: '#2E94BC;#EA5A1B',
+        cor1: 'blue',
+        cor2: 'white',
       },
       '1138': {
         id: '1138',
@@ -10390,7 +10399,8 @@ const times = [
         tipo: 'clube',
         uri: '',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/csa.png',
-        cor: ';',
+        cor1: '#4169E1',
+        cor2: 'white',
       },
       '1': {
         id: '1',
@@ -10402,7 +10412,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/flamengo',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/flamengo.png',
-        cor: '#A81A31;#282C32',
+        cor1: 'red',
+        cor2: 'black',
       },
       '11': {
         id: '11',
@@ -10414,7 +10425,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/fluminense',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/fluminense.png',
-        cor: '#329B46;#A81A31',
+        cor1: '#329B46',
+        cor2: '#A81A31',
       },
       '35': {
         id: '35',
@@ -10426,7 +10438,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/fortaleza',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/fortaleza.png',
-        cor: '#A81A31;#2E94BC',
+        cor1: 'blue',
+        cor2: 'red',
       },
       '12': {
         id: '12',
@@ -10438,7 +10451,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/goias',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/goias.png',
-        cor: '#329B46;#EA5A1B',
+        cor1: 'green;',
+        cor2: 'white',
       },
       '13': {
         id: '13',
@@ -10450,7 +10464,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/gremio',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/gremio.png',
-        cor: '#2E94BC;#282C32',
+        cor1: '#2E94BC',
+        cor2: 'white',
       },
       '15': {
         id: '15',
@@ -10462,7 +10477,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/internacional',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/internacional.png',
-        cor: '#A81A31;#EA5A1B',
+        cor1: 'white',
+        cor2: 'red',
       },
       '17': {
         id: '17',
@@ -10474,7 +10490,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/palmeiras',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/palmeiras.png',
-        cor: '#329B46;#EA5A1B',
+        cor1: '#329B46;#EA5A1B',
+        cor2: 'white',
       },
       '22': {
         id: '22',
@@ -10486,7 +10503,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/santos',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/santos.png',
-        cor: '#282C32;#EA5A1B',
+        cor1: '#282C32',
+        cor2: 'white',
       },
       '24': {
         id: '24',
@@ -10498,7 +10516,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/sao-paulo',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/sao-paulo.png',
-        cor: '#A81A31;#282C32',
+        cor1: 'red',
+        cor2: 'black',
       },
       '25': {
         id: '25',
@@ -10510,7 +10529,8 @@ const times = [
         tipo: 'clube',
         uri: 'http://esporte.uol.com.br/futebol/clubes/vasco',
         brasao: 'http://e.imguol.com/futebol/brasoes/40x40/vasco.png',
-        cor: '#282C32;#EA5A1B',
+        cor1: 'black',
+        cor2: 'white',
       },
     },
     status: '2',

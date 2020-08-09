@@ -45,3 +45,15 @@ table {
 .titulos-td {
   color: rgba(189, 189, 189, 0.986);
 }
+.span-color {
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: rgb(182, 182, 182);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.center {
+  text-align: center;
+}
