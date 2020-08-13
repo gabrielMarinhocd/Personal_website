@@ -68,6 +68,13 @@ const insertTable = (grade, grades) => {
     const dados = grades[1].find((teste) => teste.id == id);
     const { brasao, sigla } = dados;
     let styleZona = '';
+    let icon = ' ';
+
+    if (pos == 1) {
+      icon = '<img class="trofeu" src="./img/trofeu.png" />';
+    } else if (pos > 16) {
+      icon = '<img class="seta-rebaixados" src="./img/sete-para-baixo.png" />';
+    }
 
     if (pos <= 6) {
       styleZona = 'zona-libertadores';
@@ -81,9 +88,9 @@ const insertTable = (grade, grades) => {
 
     gradeHTML += `   <tr id="tr-${sigla}" data-toggle="modal" data-target="#modal-${sigla}"> 
     
-    <td ><span class="zona ${styleZona}" >${pos}</span></td>
+    <td >  <span class="zona ${styleZona}" >${pos}</span> ${icon}</td>
     <td><img class="brasao" src="${brasao}"/></td>
-    <td>${sigla} </td>
+    <td> ${sigla} </td>
     <td>${j.total} </td> 
     <td> ${v.total} </td> 
     <td> ${e.total} </td> 
@@ -103,6 +110,13 @@ const insertModal = (grade, grades) => {
   grade.forEach(({ id, pos, j, v, d, e, gc, gp, sg, pg, ap }) => {
     const dados = grades[1].find((teste) => teste.id == id);
     const { brasao, sigla, nome, cor1, cor2 } = dados;
+    let icon = ' ';
+
+    if (pos == 1) {
+      icon = '<img class="trofeu" src="./img/trofeu.png" />';
+    } else if (pos > 16) {
+      icon = '<img class="seta-rebaixados" src="./img/sete-para-baixo.png" />';
+    }
 
     gradeModalHTML += `<div
         class="modal fade "
@@ -115,7 +129,7 @@ const insertModal = (grade, grades) => {
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5  class="modal-title" id="title-modal-${sigla}">${nome}</h5>
+              <h5  class="modal-title" id="title-modal-${sigla}">${nome} ${icon}</h5>
               <button
                 type="button"
                 class="close"
