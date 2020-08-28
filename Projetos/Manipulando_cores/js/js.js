@@ -70,6 +70,9 @@ const handleFavorite = (rgb) => {
   spanBlue.innerHTML = arr[1];
   spanGreen.innerHTML = arr[3];
   spanRed.innerHTML = arr[5];
+  document.querySelector('#red').value = arr[1];
+  document.querySelector('#green').value = arr[3];
+  document.querySelector('#blue').value = arr[5];
 
   quadro.style.backgroundColor = rgb;
   bodyHTML.style.backgroundColor = rgb;
