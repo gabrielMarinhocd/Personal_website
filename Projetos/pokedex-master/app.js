@@ -34,10 +34,12 @@ const mapPokemom = async (allApiPokemom) => {
   });
 
   pokedexHTML.innerHTML = accumulator;
+  const loader = document.querySelector('#loader');
+  loader.innerHTML = ' ';
 };
 
 const getApiPokemon = async () => {
-  for (let i = 1; i <= 152; i++) {
+  for (let i = 1; i <= 100; i++) {
     const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${i}`);
     apiPokemon.push(await res.json());
   }
