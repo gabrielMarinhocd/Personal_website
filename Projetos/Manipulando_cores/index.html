@@ -7,6 +7,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="stylesheet" href="./css/css.css" />
     <title>Gabriel Marinho</title>
@@ -65,11 +69,17 @@
           </div>
         </div>
         <hr />
-        <div class="centralizar">
-          <div id="quadro"></div>
-        </div>
-        <div class="mostrar">
-          <span id="mostrar">rgb(0, 0, 0)</span>
+        <div class="grid-container1">
+          <div class="grid-item1" align="center">
+            <div id="quadro"></div>
+
+            <span id="mostrar">rgb(0, 0, 0)</span>
+            <br />
+            <button id="star" class="waves-effect waves-light btn-small star">
+              <i class="material-icons">description</i>
+            </button>
+          </div>
+          <div class="grid-item1 cores-salvas" id="cores-salvas"></div>
         </div>
       </div>
     </div>
