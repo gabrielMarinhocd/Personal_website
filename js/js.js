@@ -34,26 +34,20 @@ function verificaHora() {
   let time;
   let hours = stamp.getHours();
   if (hours >= 18 && hours < 24) {
-    time = 'tenha uma boa noite ';
+    time = 'tenha uma boa noite';
   }
 
   if (hours >= 12 && hours < 18) {
-    time = ' tenha uma boa tarde ';
+    time = ' tenha uma boa tarde';
   }
 
   if (hours >= 0 && hours < 12) {
-    time = ' tenha um bom dia ';
+    time = ' tenha um bom dia';
   }
   document.querySelector('#boas-vindas').innerHTML = time;
 }
 
 const menu = [
-  {
-    id: 'awp-brasil',
-    titulo: 'Projeto AWP Brasil',
-    link: 'https://atcawpbrasil.com.br/',
-    img: './Imagens/projetos-img/Assistencia_AWP.png',
-  },
   {
     id: 'app-mata-mosquito',
     titulo: 'APP Mata Mosquito',
@@ -116,6 +110,33 @@ const menu = [
   },
 ];
 
+const menuTrabalhos = [
+  {
+    id: 'awp-brasil',
+    titulo: 'Projeto AWP Brasil',
+    link: 'https://atcawpbrasil.com.br/',
+    img: './Imagens/projetos-img/Assistencia_AWP.png',
+  },
+  {
+    id: 'valorum',
+    titulo: 'Valorum',
+    link: 'https://valorum.com.br/',
+    img: './Imagens/projetos-img/Valorum.png',
+  },
+  {
+    id: 'folha-dedetizadora',
+    titulo: 'Folha Detdetizadora',
+    link: 'https://folhadedetizadora.com.br/',
+    img: './Imagens/projetos-img/folha-dedetizadora.png',
+  },
+  {
+    id: 'aria-pilates',
+    titulo: 'Aria Pilates',
+    link: 'https://ariapilates.com.br/',
+    img: './Imagens/projetos-img/Aria-pilates.png',
+  },
+];
+
 const redesSociais = [
   {
     id: 'email',
@@ -152,10 +173,44 @@ const insertMenuDropdown = () => {
   navMobile.innerHTML = liHTML;
 };
 
+const insertMenuDropdownTrabalhos = () => {
+  const idDropdown = document.querySelector('#dropdown2');
+  const navMobile = document.querySelector('#dropdown-mobile2');
+
+  let liHTML =
+    '<li class="center"><a href="#trabalhos">Todos</a></li> <li class="divider" tabindex="0"></li>';
+  menuTrabalhos.forEach(({ id, titulo, link }) => {
+    liHTML += ` <li id="li-${id}">
+        <a id="link-${id}" href="${link}" target="_blank"
+          >${titulo}</a
+        >
+      </li>`;
+  });
+  idDropdown.innerHTML = liHTML;
+  navMobile.innerHTML = liHTML;
+};
+
 const insertCarosel = () => {
   const caroselHTML = document.querySelector('#carousel');
   let gradeHTML = '';
   menu.forEach(({ id, titulo, link, img }) => {
+    gradeHTML += `  <a id="link-${id}" class="carousel-item modal-trigger"  href="${link}" target="_blank"
+              ><img id="img-${id}"
+                class="img-carosel"
+                src="${img}"
+              />
+              <span id="span-${id}" >${titulo}</span>
+            </a>`;
+  });
+
+  caroselHTML.innerHTML = gradeHTML;
+};
+
+const insertCaroselTrabalhos = () => {
+  const caroselHTML = document.querySelector('#carouselTrabalhos');
+
+  let gradeHTML = '';
+  menuTrabalhos.forEach(({ id, titulo, link, img }) => {
     gradeHTML += `  <a id="link-${id}" class="carousel-item modal-trigger"  href="${link}" target="_blank"
               ><img id="img-${id}"
                 class="img-carosel"
@@ -186,7 +241,9 @@ const inserRedesSociais = () => {
 };
 
 insertMenuDropdown();
+insertMenuDropdownTrabalhos();
 insertCarosel();
+insertCaroselTrabalhos();
 inserRedesSociais();
 
 // {
