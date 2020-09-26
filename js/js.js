@@ -139,7 +139,7 @@ const feedback = async () => {
   const menssagem = document.querySelector('#menssagem').value;
 
   const sendFeedback = await fetch(
-    `http://localhost:3000?name=${name}&email=${email}&menssagem=${menssagem}&nota=${stars}`,
+    `https://gabrielmarinho.herokuapp.com/?name=${name}&email=${email}&menssagem=${menssagem}&nota=${stars}`,
     {
       method: 'POST',
     }
