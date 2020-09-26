@@ -97,7 +97,6 @@
 
     <div class="conteudo" id="boasVindas">
       <div class="sobre animate__animated animate__fadeIn animate__delay-5s">
-        <br />
         <h3 class="title-sobre">Boas vindas</h3>
         <p class="texto">
           Olá! Eu sou Gabriel, este meu site onde busco mostrar minhas
@@ -113,7 +112,7 @@
     </div>
 
     <div class="conteudo" id="formacaoAcademica">
-      <div class="sobre center ">
+      <div class="sobre center  animate__animated animate__fadeIn animate__delay-5s">
         <h4 class="title-sobre">Formação acadêmica</h4>
 
         <div class="row">
@@ -193,8 +192,7 @@
     </div>
 
     <div class="conteudo" id="projetos">
-      <div class="sobre animate__animated animate__fadeIn animate__delay-1s">
-        <br />
+      <div class="sobre animate__animated animate__fadeIn animate__delay-5s">
         <h3 class="title-sobre">Meus projetos</h3>
         <div class="carousel" id="carousel">
           <!--Conteudo do insertCarosel -->
@@ -203,11 +201,10 @@
     </div>
 
     <div class="conteudo" id="trabalhos">
-      <div class="sobre animate__animated animate__fadeIn animate__delay-1s">
-        <br />
+      <div class="sobre animate__animated animate__fadeIn animate__delay-5s">
         <h3 class="title-sobre">Trabalhos</h3>
         <div class="carousel" id="carouselTrabalhos">
-          <!--Conteudo do insertCarosel -->
+          <!--Conteudo do insertCaroselTrabalhos -->
         </div>
       </div>
     </div>
@@ -231,14 +228,67 @@
         </div>
       </div>
     </div>
+
     <div class="conteudo">
       <div class="redes-sociais animate__animated animate__fadeIn animate__delay-5s" id="redes-sociais">
         <!--Conteudo do array  redes-sociais  -->
       </div>
     </div>
-  </div>
-  </div>
 
+    <div class="conteudo" id="boasVindas">
+      <div class="sobre feedback  ">
+        <div class="row">
+          <h3 class="title-sobre">Deixe seu feedback</h3>
+          <div class="col s12">
+
+            <div class="row">
+
+              <div class="input-field col s12">
+                <input id="name" name="name" type="text" required />
+                <label>Nome</label>
+              </div>
+
+              <div class="input-field col s12">
+                <input id="inputEmail" name="inputEmail" type="email" required />
+                <label>E-mail</label>
+              </div>
+
+              <div class="input-field col s12">
+                <textarea id="menssagem" class="materialize-textarea" required></textarea>
+                <label>Messagem</label>
+              </div>
+              <div class="input-field col s12">
+
+                <a href="javascript:void(0)" onclick="Avaliar(1)">
+                  <img src="Imagens/star0.png" id="s1"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(2)">
+                  <img src="Imagens/star0.png" id="s2"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(3)">
+                  <img src="Imagens/star0.png" id="s3"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(4)">
+                  <img src="Imagens/star0.png" id="s4"></a>
+
+                <a href="javascript:void(0)" onclick="Avaliar(5)">
+                  <img src="Imagens/star0.png" id="s5"></a>
+                <p id="rating"></p>
+              </div>
+
+              <button class="waves-effect waves-light btn" onclick="feedback()"> enviar</button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+
+  <script src="./js/feedback.js"></script>
+  <script src="./js/funcoes.js"></script>
   <script src="./js/conteudo.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>

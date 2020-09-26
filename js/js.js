@@ -133,6 +133,20 @@ const inserRedesSociais = () => {
   redesSociaisHTML.innerHTML = gradeHTML;
 };
 
+const feedback = async () => {
+  const name = document.querySelector('#name').value;
+  const email = document.querySelector('#inputEmail').value;
+  const menssagem = document.querySelector('#menssagem').value;
+
+  const sendFeedback = await fetch(
+    `http://localhost:3000?name=${name}&email=${email}&menssagem=${menssagem}&nota=${stars}`,
+    {
+      method: 'POST',
+    }
+  );
+  alert('Obrigado pelo seu feedback');
+};
+
 insertMenuDropdown();
 insertMenuDropdownTrabalhos();
 insertCarosel();
