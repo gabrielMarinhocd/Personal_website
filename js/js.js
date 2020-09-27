@@ -1,3 +1,4 @@
+const divFeedback = document.querySelector('#feedback');
 window.addEventListener('load', () => {
   verificaHora();
 
@@ -28,7 +29,7 @@ window.addEventListener('load', () => {
   });
 });
 
-function verificaHora() {
+const verificaHora = async () => {
   let stamp = new Date();
   let sours;
   let time;
@@ -45,7 +46,8 @@ function verificaHora() {
     time = ' tenha um bom dia';
   }
   document.querySelector('#boas-vindas').innerHTML = time;
-}
+  await fetch('https://gabrielmarinho.herokuapp.com');
+};
 
 const insertMenuDropdown = () => {
   const idDropdown = document.querySelector('#dropdown1');
@@ -133,18 +135,49 @@ const inserRedesSociais = () => {
   redesSociaisHTML.innerHTML = gradeHTML;
 };
 
-const feedback = async () => {
+const feedback = async (event) => {
   const name = document.querySelector('#name').value;
   const email = document.querySelector('#inputEmail').value;
   const menssagem = document.querySelector('#menssagem').value;
 
-  const sendFeedback = await fetch(
-    `https://gabrielmarinho.herokuapp.com/?name=${name}&email=${email}&menssagem=${menssagem}&nota=${stars}`,
-    {
-      method: 'POST',
-    }
-  );
-  alert('Obrigado pelo seu feedback');
+  if (name !== '' && email !== '' && menssagem !== '' && stars !== 0) {
+    const preeloader = ` <h3 class="title-sobre">Deixe seu feedback</h3>
+     <div class="preloader-wrapper big active">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>`;
+
+    divFeedback.innerHTML = preeloader;
+
+    const data = new Date();
+
+    // const sendFeedback = await fetch(
+    //   `https://gabrielmarinho.herokuapp.com?name=${name}&email=${email}&menssagem=${menssagem}&nota=${stars}&data=${data}`,
+    //   {
+    //     method: 'POST',
+    //   }
+    // );
+    // await agradecimento(sendFeedback.ok);
+  } else {
+    alert('Preencha todos os campos');
+  }
+};
+
+const agradecimento = (res) => {
+  if (res) {
+    const feedbackCadastrado = `<div class=" animate__animated animate__jackInTheBox  ">
+              <h3 class="title-sobre"> Obrigado pelo feedback</h3>
+              <img class="like-img" src="./Imagens/like.png" alt="like" />
+            </div>`;
+    divFeedback.innerHTML = feedbackCadastrado;
+  }
 };
 
 insertMenuDropdown();
@@ -152,6 +185,8 @@ insertMenuDropdownTrabalhos();
 insertCarosel();
 insertCaroselTrabalhos();
 inserRedesSociais();
+const inputValue = document.querySelector('#form');
+inputValue.addEventListener('submit', (event) => event.preventDefault());
 
 // {
 // id: 'falcao-pipa',

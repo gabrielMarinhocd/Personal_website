@@ -21,14 +21,14 @@ function Avaliar(estrela) {
       document.getElementById('s3').src = 'Imagens/star1.png';
       document.getElementById('s4').src = 'Imagens/star1.png';
       document.getElementById('s5').src = 'Imagens/star1.png';
-      avaliacao = 'Otimo';
+      avaliacao = 'Ótimo';
     } else {
       document.getElementById('s1').src = 'Imagens/star1.png';
       document.getElementById('s2').src = 'Imagens/star1.png';
       document.getElementById('s3').src = 'Imagens/star1.png';
       document.getElementById('s4').src = 'Imagens/star1.png';
-      document.getElementById('s5').src = 'Imagens/star0.png';
-      avaliacao = 'Muito Bom';
+      document.getElementById('s5').src = 'Imagens/star1.png';
+      avaliacao = 'Ótimo';
     }
   }
 

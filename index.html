@@ -236,50 +236,50 @@
     </div>
 
     <div class="conteudo" id="boasVindas">
-      <div class="sobre feedback  ">
+      <div class="sobre feedback animate__animated animate__fadeIn animate__delay-5s">
         <div class="row">
-          <h3 class="title-sobre">Deixe seu feedback</h3>
+
           <div class="col s12">
+            <div class="row " id="feedback">
+              <h3 class="title-sobre">Deixe seu feedback</h3>
+              <form onsubmit="feedback()" id="form">
 
-            <div class="row">
+                <div class="input-field col s12">
 
-              <div class="input-field col s12">
-                <input id="name" name="name" type="text" required />
-                <label>Nome</label>
-              </div>
+                  <input id="name" name="name" type="text" required />
+                  <label>Nome</label>
+                </div>
 
-              <div class="input-field col s12">
-                <input id="inputEmail" name="inputEmail" type="email" required />
-                <label>E-mail</label>
-              </div>
+                <div class="input-field col s12">
+                  <input id="inputEmail" name="inputEmail" type="email" required />
+                  <label>E-mail</label>
+                </div>
 
-              <div class="input-field col s12">
-                <textarea id="menssagem" class="materialize-textarea" required></textarea>
-                <label>Messagem</label>
-              </div>
-              <div class="input-field col s12">
+                <div class="input-field col s12">
+                  <textarea id="menssagem" class="materialize-textarea" required></textarea>
+                  <label>Messagem</label>
+                </div>
+                <div class="input-field col s12">
+                  <a class="stars" href="javascript:void(0)" onclick="Avaliar(1)">
+                    <img src="Imagens/star0.png" id="s1"></a>
 
-                <a href="javascript:void(0)" onclick="Avaliar(1)">
-                  <img src="Imagens/star0.png" id="s1"></a>
+                  <a class="stars" href="javascript:void(0)" onclick="Avaliar(2)">
+                    <img src="Imagens/star0.png" id="s2"></a>
 
-                <a href="javascript:void(0)" onclick="Avaliar(2)">
-                  <img src="Imagens/star0.png" id="s2"></a>
+                  <a class="stars" href="javascript:void(0)" onclick="Avaliar(3)">
+                    <img src="Imagens/star0.png" id="s3"></a>
 
-                <a href="javascript:void(0)" onclick="Avaliar(3)">
-                  <img src="Imagens/star0.png" id="s3"></a>
+                  <a class="stars" href="javascript:void(0)" onclick="Avaliar(4)">
+                    <img src="Imagens/star0.png" id="s4"></a>
 
-                <a href="javascript:void(0)" onclick="Avaliar(4)">
-                  <img src="Imagens/star0.png" id="s4"></a>
-
-                <a href="javascript:void(0)" onclick="Avaliar(5)">
-                  <img src="Imagens/star0.png" id="s5"></a>
+                  <a class="stars" href="javascript:void(0)" onclick="Avaliar(5)">
+                    <img src="Imagens/star0.png" id="s5"></a>
+                </div>
                 <p id="rating"></p>
-              </div>
 
-              <button class="waves-effect waves-light btn" onclick="feedback()"> enviar</button>
+                <button class="waves-effect waves-light btn"> enviar</button>
               </form>
             </div>
-
           </div>
         </div>
       </div>
