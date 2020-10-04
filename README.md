@@ -1,16 +1,13 @@
-  <div>
-    <div>
-      <h2>Site pessoal</h2>
-      <p>Olá! Eu sou Gabriel, este meu site onde busco mostrar minhas competências e falar um pouco sobre min. Sendo
-        assim
+<h2>Site pessoal</h2>
+<p>Olá! Eu sou Gabriel, este meu site onde busco mostrar minhas competências e falar um pouco sobre min. Sendo assim
         aqui você vai encontrar informações sobre minha formação acadêmica, informações contato, além de projetos que eu
         fiz
         em minha carreira como desenvolvedor. Então pense nesse site com um currículo animado e desfrute do conteúdo.
         Obrigdo
         pelo acesso e tenha uma boa tarde.</p>
-    </div>
+</div>
 
-    <div>
+<div>
       <h2> Video de apresentação do site</h2>
       <div style="align-items: center; text-align: center;">
         <a href="https://youtu.be/9rcKEojHU4g" target="_blank" rel="noopener noreferrer">
@@ -18,9 +15,9 @@
             alt="Video" />
         </a>
       </div>
-    </div>
+</div>
 
-    <div>
+<div>
       <h2>Tecnologias usadas no site</h2>
       <ul>
         <li>HTML/CSS</li>
@@ -28,6 +25,4 @@
         <li>Materialise.css(Framwork)</li>
         <li>Animeted.css (Framwork)</li>
       </ul>
-    </div>
-
-  </div>
+</div>
