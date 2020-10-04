@@ -10,8 +10,8 @@
 <div>
       <h2> Video de apresentação do site</h2>
       <div style="align-items: center; text-align: center;">
-        <a href="https://youtu.be/9rcKEojHU4g" target="_blank" rel="noopener noreferrer">
-          <img height="300px" width="500px" src="https://github.com/gabrielMarinhocd/Meu_site/blob/master/Imagens/projetos-img/App-mata-mosquito.png"
+        <a href="http://youtu.be/9rcKEojHU4g" target="_blank" rel="noopener noreferrer">
+          <img height="300px" width="500px" src="https://github.com/gabrielMarinhocd/Meu_site/blob/master/Imagens/para_readme/Site_pessoal/Video.png"
             alt="Video" />
         </a>
       </div>
