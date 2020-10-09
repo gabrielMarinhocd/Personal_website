@@ -18,13 +18,11 @@
   </div>
 
   <div>
-    <h4> GIFs das funcionalidades do site</h4>
+      <h4> GIFs das funcionalidades do site</h4>
     <div style="align-items: center; text-align: center;">
-      <img src="https://github.com/gabrielMarinhocd/Meu_site/blob/master/Imagens/GIFS/Animated%20GIF-downsized_large.gif"
+       <img src="https://github.com/gabrielMarinhocd/Meu_site/blob/master/Imagens/GIFS/Animated%20GIF-downsized_large.gif"
         width="400" height="250" />
-
     </div>
-
   </div>
 
   <div>
