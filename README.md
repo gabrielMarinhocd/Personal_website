@@ -20,17 +20,17 @@
   <div>
       <h3> GIFs das funcionalidades do site</h3>
            <img src="https://github.com/gabrielMarinhocd/Meu_site/blob/master/Imagens/GIFS/Animated%20GIF-downsized_large.gif"
-        width="400" height="250" />
+        width="400" height="250" margin="10px" />
        <img src="https://github.com/gabrielMarinhocd/Meu_site/blob/master/Imagens/GIFS/boas-vidas-e-formacao-academica.gif"
-        width="400" height="250" /> 
+        width="400" height="250" margin="10px" /> 
        <img src="https://github.com/gabrielMarinhocd/Meu_site/blob/master/Imagens/GIFS/feedback-1.gif"
-        width="400" height="250" />
+        width="400" height="250" margin="10px" />
        <img src="https://github.com/gabrielMarinhocd/Meu_site/blob/master/Imagens/GIFS/feedback-2.gif"
-        width="400" height="250" />
+        width="400" height="250" margin="10px" />
        <img src="https://github.com/gabrielMarinhocd/Meu_site/blob/master/Imagens/GIFS/feedback-3.gif"
-        width="400" height="250" />
+        width="400" height="250" margin="10px" />
        <img src="https://github.com/gabrielMarinhocd/Meu_site/blob/master/Imagens/GIFS/feedback-4.gif"
-        width="400" height="250" />
+        width="400" height="250" margin="10px" />
   </div>
 
   <div>
