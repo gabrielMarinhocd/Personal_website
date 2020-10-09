@@ -18,8 +18,8 @@
   </div>
 
   <div>
-      <h3> GIFs das funcionalidades do site</h3>
-           <img src="https://github.com/gabrielMarinhocd/Meu_site/blob/master/Imagens/GIFS/Animated%20GIF-downsized_large.gif"
+      <h2> GIFs das funcionalidades do site</h2>
+        <img src="https://github.com/gabrielMarinhocd/Meu_site/blob/master/Imagens/GIFS/Animated%20GIF-downsized_large.gif"
         width="400" height="250" margin="10px" />
        <img src="https://github.com/gabrielMarinhocd/Meu_site/blob/master/Imagens/GIFS/boas-vidas-e-formacao-academica.gif"
         width="400" height="250" margin="10px" /> 
@@ -31,6 +31,13 @@
         width="400" height="250" margin="10px" />
        <img src="https://github.com/gabrielMarinhocd/Meu_site/blob/master/Imagens/GIFS/feedback-4.gif"
         width="400" height="250" margin="10px" />
+  </div>
+
+  <div>
+    <h2>Como executar o site?</h2>
+    <p>
+      Para executar o site basta baixar os arquivos e clicar em index.html.
+    </p>
   </div>
 
   <div>
