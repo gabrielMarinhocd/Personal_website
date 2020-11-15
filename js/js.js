@@ -158,13 +158,13 @@ const feedback = async (event) => {
 
     const data = new Date();
 
-    // const sendFeedback = await fetch(
-    //   `https://gabrielmarinho.herokuapp.com?name=${name}&email=${email}&menssagem=${menssagem}&nota=${stars}&data=${data}`,
-    //   {
-    //     method: 'POST',
-    //   }
-    // );
-    // await agradecimento(sendFeedback.ok);
+    const sendFeedback = await fetch(
+      `https://gabrielmarinho.herokuapp.com?name=${name}&email=${email}&menssagem=${menssagem}&nota=${stars}&data=${data}`,
+      {
+        method: 'POST',
+      }
+    );
+    await agradecimento(sendFeedback.ok);
   } else {
     alert('Preencha todos os campos');
   }

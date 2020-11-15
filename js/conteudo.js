@@ -69,27 +69,6 @@ const menuTrabalhos = [
     subTitulo: 'AWP Brasil',
     img: './Imagens/projetos-img/Assistencia_AWP.png',
   },
-  {
-    id: 'valorum',
-    titulo: 'Valorum',
-    link: 'https://valorum.com.br/',
-    subTitulo: 'Mix7',
-    img: './Imagens/projetos-img/Valorum.png',
-  },
-  {
-    id: 'folha-dedetizadora',
-    titulo: 'Folha Detdetizadora',
-    subTitulo: 'Mix7',
-    link: 'https://folhadedetizadora.com.br/',
-    img: './Imagens/projetos-img/folha-dedetizadora.png',
-  },
-  {
-    id: 'aria-pilates',
-    titulo: 'Aria Pilates',
-    subTitulo: 'Mix7',
-    link: 'https://ariapilates.com.br/',
-    img: './Imagens/projetos-img/Aria-pilates.png',
-  },
 ];
 
 const redesSociais = [
@@ -110,3 +89,26 @@ const redesSociais = [
     img: './Imagens/linkedin-sign_icon-icons.com_73508.png',
   },
 ];
+
+//Trabalhos mix7
+//  {
+//     id: 'valorum',
+//     titulo: 'Valorum',
+//     link: 'https://valorum.com.br/',
+//     subTitulo: 'Mix7',
+//     img: './Imagens/projetos-img/Valorum.png',
+//   },
+//   {
+//     id: 'folha-dedetizadora',
+//     titulo: 'Folha Detdetizadora',
+//     subTitulo: 'Mix7',
+//     link: 'https://folhadedetizadora.com.br/',
+//     img: './Imagens/projetos-img/folha-dedetizadora.png',
+//   },
+//   {
+//     id: 'aria-pilates',
+//     titulo: 'Aria Pilates',
+//     subTitulo: 'Mix7',
+//     link: 'https://ariapilates.com.br/',
+//     img: './Imagens/projetos-img/Aria-pilates.png',
+//   },
