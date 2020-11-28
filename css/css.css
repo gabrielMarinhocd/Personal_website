@@ -11,7 +11,11 @@
   height: 30%;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
   .sub-nome {
     font-size: 20px;
   }
@@ -35,7 +39,11 @@
   }
 }
 
-@media (min-width: 560px) {
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
   .sub-nome {
     font-family: 'Abril Fatface', cursive;
   }
@@ -81,7 +89,7 @@
   overflow: hidden;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 768px) {
   .zoom img {
     height: 3em;
     width: 3em;
@@ -92,7 +100,7 @@
     transition: all 0.3s;
   }
 }
-@media (min-width: 560px) {
+@media (min-width: 768px) {
   .zoom img {
     height: 10%;
     width: 10%;

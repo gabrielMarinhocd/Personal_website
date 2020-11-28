@@ -11,22 +11,6 @@ window.addEventListener('load', () => {
     let elems = document.querySelectorAll('.dropdown-trigger1');
     let instances = M.Dropdown.init(elems, options);
   });
-
-  const logo = document.querySelector('#logo-container');
-  let tamanhaoDeTela = $(window).width();
-  if (tamanhaoDeTela < 1000) {
-    logo.innerHTML = 'GM';
-  } else {
-    logo.innerHTML = 'Gabriel Marinho';
-  }
-  window.addEventListener('resize', function () {
-    let tamanhaoDeTela = $(window).width();
-    if (tamanhaoDeTela < 1000) {
-      logo.innerHTML = 'GM';
-    } else {
-      logo.innerHTML = 'Gabriel Marinho';
-    }
-  });
 });
 
 const verificaHora = async () => {
