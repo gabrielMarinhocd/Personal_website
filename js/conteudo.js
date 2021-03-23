@@ -77,24 +77,24 @@ const menuTrabalhos = [
   },
   {
     id: 'imperiojoias',
-    titulo: 'Teige - Império Jóias',
+    titulo: 'Império Jóias - Teige',
     link: 'https://gabriel-react-countries.herokuapp.com/',
     subTitulo: 'Wordpress',
-    img: './Imagens/projetos-img/Assistencia_AWP.png',
+    img: './Imagens/wordpress.png',
   },
   {
     id: 'martelinhho',
-    titulo: 'Martelinho de Ouro',
+    titulo: 'Martelinho de Ouro - Teige',
     link: 'http://martelinhodeouro.siteoficial.ws/',
     subTitulo: 'Wordpress',
-    img: './Imagens/projetos-img/Assistencia_AWP.png',
+    img: './Imagens/wordpress.png',
   },
   {
     id: 'studiojo',
-    titulo: 'Studio Jo',
+    titulo: 'Studio Jo - Teige',
     link: 'http://studiojo.paginaoficial.ws/',
     subTitulo: 'Wordpress',
-    img: './Imagens/projetos-img/Assistencia_AWP.png',
+    img: './Imagens/wordpress.png',
   },
 ];
 

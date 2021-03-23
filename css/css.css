@@ -44,12 +44,7 @@
     display: none;
   }
 
-  .sub-nome {
-    font-family: 'Abril Fatface', cursive;
-  }
-
   .nome {
-    font-family: 'Abril Fatface', cursive;
     color: #2195f3cb;
   }
 
@@ -61,7 +56,6 @@
     color: white;
   }
   .title-sobre {
-    font-family: 'Abril Fatface', cursive, Helvetica, sans-serif;
     text-align: center;
   }
 }
