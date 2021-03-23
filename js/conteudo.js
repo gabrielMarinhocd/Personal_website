@@ -59,14 +59,41 @@ const menu = [
     link: './Projetos/Brasileirão/index.html',
     img: './Imagens/projetos-img/Tabela-Brasileirao.png',
   },
+  {
+    id: 'tabela-brasileirão',
+    titulo: 'Tabela do Brasileirão',
+    link: './Projetos/Brasileirão/index.html',
+    img: './Imagens/projetos-img/Tabela-Brasileirao.png',
+  },
 ];
 
 const menuTrabalhos = [
   {
     id: 'awp-brasil',
     titulo: 'Sistema AWP Brasil',
-    link: 'https://atcawpbrasil.com.br/',
-    subTitulo: 'AWP Brasil',
+    link: 'https://github.com/gabrielMarinhocd/Personal_website',
+    subTitulo: 'Java',
+    img: './Imagens/projetos-img/Assistencia_AWP.png',
+  },
+  {
+    id: 'imperiojoias',
+    titulo: 'Teige - Império Jóias',
+    link: 'https://gabriel-react-countries.herokuapp.com/',
+    subTitulo: 'Wordpress',
+    img: './Imagens/projetos-img/Assistencia_AWP.png',
+  },
+  {
+    id: 'martelinhho',
+    titulo: 'Martelinho de Ouro',
+    link: 'http://martelinhodeouro.siteoficial.ws/',
+    subTitulo: 'Wordpress',
+    img: './Imagens/projetos-img/Assistencia_AWP.png',
+  },
+  {
+    id: 'studiojo',
+    titulo: 'Studio Jo',
+    link: 'http://studiojo.paginaoficial.ws/',
+    subTitulo: 'Wordpress',
     img: './Imagens/projetos-img/Assistencia_AWP.png',
   },
 ];

@@ -2,7 +2,7 @@ const times = [
   {
     'nome-completo': 'Campeonato Brasileiro',
     fases: {
-      '2878': {
+      2878: {
         id: '2878',
         nome: 'Fase única',
         tipo: { numero: '2', descricao: 'Pontos Corridos - Sem Grupos' },
@@ -18,7 +18,7 @@ const times = [
           classifica3: { faixa: '17-20', texto: 'Zona de rebaixamento' },
         },
         'excecoes-classificacao': {
-          '6': [
+          6: [
             {
               faixa: 'classifica1',
               texto: 'Zona de classificação para a Libertadores',
@@ -329,7 +329,7 @@ const times = [
             ],
           },
           rodada: {
-            '1': [
+            1: [
               '107659',
               '107647',
               '107653',
@@ -341,7 +341,7 @@ const times = [
               '107654',
               '107660',
             ],
-            '2': [
+            2: [
               '107664',
               '107675',
               '107680',
@@ -353,7 +353,7 @@ const times = [
               '107673',
               '107668',
             ],
-            '3': [
+            3: [
               '107696',
               '107700',
               '107701',
@@ -365,7 +365,7 @@ const times = [
               '107684',
               '107691',
             ],
-            '4': [
+            4: [
               '107710',
               '107715',
               '107706',
@@ -377,7 +377,7 @@ const times = [
               '107708',
               '107717',
             ],
-            '5': [
+            5: [
               '107727',
               '107732',
               '107733',
@@ -389,7 +389,7 @@ const times = [
               '107729',
               '107734',
             ],
-            '6': [
+            6: [
               '107741',
               '107748',
               '107743',
@@ -401,7 +401,7 @@ const times = [
               '107740',
               '107750',
             ],
-            '7': [
+            7: [
               '107759',
               '107756',
               '107758',
@@ -413,7 +413,7 @@ const times = [
               '107757',
               '107761',
             ],
-            '8': [
+            8: [
               '107766',
               '107768',
               '107762',
@@ -425,7 +425,7 @@ const times = [
               '107772',
               '107763',
             ],
-            '9': [
+            9: [
               '107787',
               '107780',
               '107777',
@@ -437,7 +437,7 @@ const times = [
               '107788',
               '107790',
             ],
-            '10': [
+            10: [
               '107794',
               '107798',
               '107803',
@@ -449,7 +449,7 @@ const times = [
               '107809',
               '107807',
             ],
-            '11': [
+            11: [
               '107827',
               '107832',
               '107817',
@@ -461,7 +461,7 @@ const times = [
               '107830',
               '107826',
             ],
-            '12': [
+            12: [
               '107845',
               '107838',
               '107840',
@@ -473,7 +473,7 @@ const times = [
               '107856',
               '107857',
             ],
-            '13': [
+            13: [
               '107862',
               '107868',
               '107866',
@@ -485,7 +485,7 @@ const times = [
               '107859',
               '107874',
             ],
-            '14': [
+            14: [
               '107882',
               '107887',
               '107888',
@@ -497,7 +497,7 @@ const times = [
               '107895',
               '107896',
             ],
-            '15': [
+            15: [
               '107905',
               '107906',
               '107910',
@@ -509,7 +509,7 @@ const times = [
               '107917',
               '107915',
             ],
-            '16': [
+            16: [
               '107924',
               '107923',
               '107928',
@@ -521,7 +521,7 @@ const times = [
               '107931',
               '107926',
             ],
-            '17': [
+            17: [
               '107949',
               '107957',
               '107955',
@@ -533,7 +533,7 @@ const times = [
               '107946',
               '107952',
             ],
-            '18': [
+            18: [
               '107968',
               '107973',
               '107966',
@@ -545,7 +545,7 @@ const times = [
               '107975',
               '107982',
             ],
-            '19': [
+            19: [
               '107995',
               '107990',
               '108000',
@@ -557,7 +557,7 @@ const times = [
               '108001',
               '107992',
             ],
-            '20': [
+            20: [
               '108019',
               '108009',
               '108012',
@@ -569,7 +569,7 @@ const times = [
               '108021',
               '108020',
             ],
-            '21': [
+            21: [
               '108005',
               '108008',
               '108011',
@@ -581,7 +581,7 @@ const times = [
               '108004',
               '108015',
             ],
-            '22': [
+            22: [
               '107993',
               '107989',
               '107983',
@@ -593,7 +593,7 @@ const times = [
               '107996',
               '107998',
             ],
-            '23': [
+            23: [
               '107972',
               '107974',
               '107965',
@@ -605,7 +605,7 @@ const times = [
               '107976',
               '107981',
             ],
-            '24': [
+            24: [
               '107958',
               '107962',
               '107951',
@@ -617,7 +617,7 @@ const times = [
               '107960',
               '107956',
             ],
-            '25': [
+            25: [
               '107942',
               '107939',
               '107934',
@@ -629,7 +629,7 @@ const times = [
               '107930',
               '107940',
             ],
-            '26': [
+            26: [
               '107908',
               '107922',
               '107911',
@@ -641,7 +641,7 @@ const times = [
               '107919',
               '107918',
             ],
-            '27': [
+            27: [
               '107893',
               '107894',
               '107889',
@@ -653,7 +653,7 @@ const times = [
               '107902',
               '107899',
             ],
-            '28': [
+            28: [
               '107875',
               '107876',
               '107884',
@@ -665,7 +665,7 @@ const times = [
               '107883',
               '107879',
             ],
-            '29': [
+            29: [
               '107848',
               '107852',
               '107861',
@@ -677,7 +677,7 @@ const times = [
               '107846',
               '107858',
             ],
-            '30': [
+            30: [
               '107833',
               '107835',
               '107839',
@@ -689,7 +689,7 @@ const times = [
               '107836',
               '107842',
             ],
-            '31': [
+            31: [
               '107815',
               '107812',
               '107821',
@@ -701,7 +701,7 @@ const times = [
               '107820',
               '107810',
             ],
-            '32': [
+            32: [
               '107806',
               '107797',
               '107792',
@@ -713,7 +713,7 @@ const times = [
               '107808',
               '107802',
             ],
-            '33': [
+            33: [
               '107776',
               '107781',
               '107786',
@@ -725,7 +725,7 @@ const times = [
               '107779',
               '107773',
             ],
-            '34': [
+            34: [
               '107739',
               '107736',
               '107725',
@@ -737,7 +737,7 @@ const times = [
               '107744',
               '107751',
             ],
-            '35': [
+            35: [
               '107702',
               '107718',
               '107720',
@@ -749,7 +749,7 @@ const times = [
               '107712',
               '107704',
             ],
-            '36': [
+            36: [
               '107685',
               '107693',
               '107686',
@@ -761,7 +761,7 @@ const times = [
               '107688',
               '107690',
             ],
-            '37': [
+            37: [
               '107678',
               '107663',
               '107665',
@@ -773,7 +773,7 @@ const times = [
               '107676',
               '107670',
             ],
-            '38': [
+            38: [
               '107642',
               '107643',
               '107644',
@@ -787,7 +787,7 @@ const times = [
             ],
           },
           id: {
-            '107659': {
+            107659: {
               posicao: '0',
               njogo: '0',
               rodada: '1',
@@ -811,7 +811,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107647': {
+            107647: {
               posicao: '0',
               njogo: '0',
               rodada: '1',
@@ -835,7 +835,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107653': {
+            107653: {
               posicao: '0',
               njogo: '0',
               rodada: '1',
@@ -859,7 +859,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107656': {
+            107656: {
               posicao: '0',
               njogo: '0',
               rodada: '1',
@@ -883,7 +883,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107645': {
+            107645: {
               posicao: '0',
               njogo: '0',
               rodada: '1',
@@ -907,7 +907,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107649': {
+            107649: {
               posicao: '0',
               njogo: '0',
               rodada: '1',
@@ -931,7 +931,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107651': {
+            107651: {
               posicao: '0',
               njogo: '0',
               rodada: '1',
@@ -955,7 +955,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107662': {
+            107662: {
               posicao: '0',
               njogo: '0',
               rodada: '1',
@@ -979,7 +979,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107654': {
+            107654: {
               posicao: '0',
               njogo: '0',
               rodada: '1',
@@ -1003,7 +1003,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107660': {
+            107660: {
               posicao: '0',
               njogo: '0',
               rodada: '1',
@@ -1027,7 +1027,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107664': {
+            107664: {
               posicao: '0',
               njogo: '0',
               rodada: '2',
@@ -1051,7 +1051,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107675': {
+            107675: {
               posicao: '0',
               njogo: '0',
               rodada: '2',
@@ -1075,7 +1075,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107680': {
+            107680: {
               posicao: '0',
               njogo: '0',
               rodada: '2',
@@ -1099,7 +1099,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107666': {
+            107666: {
               posicao: '0',
               njogo: '0',
               rodada: '2',
@@ -1123,7 +1123,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107679': {
+            107679: {
               posicao: '0',
               njogo: '0',
               rodada: '2',
@@ -1147,7 +1147,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107671': {
+            107671: {
               posicao: '0',
               njogo: '0',
               rodada: '2',
@@ -1171,7 +1171,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107677': {
+            107677: {
               posicao: '0',
               njogo: '0',
               rodada: '2',
@@ -1195,7 +1195,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107682': {
+            107682: {
               posicao: '0',
               njogo: '0',
               rodada: '2',
@@ -1219,7 +1219,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107673': {
+            107673: {
               posicao: '0',
               njogo: '0',
               rodada: '2',
@@ -1243,7 +1243,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107668': {
+            107668: {
               posicao: '0',
               njogo: '0',
               rodada: '2',
@@ -1267,7 +1267,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107696': {
+            107696: {
               posicao: '0',
               njogo: '0',
               rodada: '3',
@@ -1291,7 +1291,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107700': {
+            107700: {
               posicao: '0',
               njogo: '0',
               rodada: '3',
@@ -1315,7 +1315,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107701': {
+            107701: {
               posicao: '0',
               njogo: '0',
               rodada: '3',
@@ -1339,7 +1339,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107692': {
+            107692: {
               posicao: '0',
               njogo: '0',
               rodada: '3',
@@ -1363,7 +1363,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107687': {
+            107687: {
               posicao: '0',
               njogo: '0',
               rodada: '3',
@@ -1387,7 +1387,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107689': {
+            107689: {
               posicao: '0',
               njogo: '0',
               rodada: '3',
@@ -1411,7 +1411,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107694': {
+            107694: {
               posicao: '0',
               njogo: '0',
               rodada: '3',
@@ -1435,7 +1435,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107698': {
+            107698: {
               posicao: '0',
               njogo: '0',
               rodada: '3',
@@ -1459,7 +1459,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107684': {
+            107684: {
               posicao: '0',
               njogo: '0',
               rodada: '3',
@@ -1483,7 +1483,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107691': {
+            107691: {
               posicao: '0',
               njogo: '0',
               rodada: '3',
@@ -1507,7 +1507,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107710': {
+            107710: {
               posicao: '0',
               njogo: '0',
               rodada: '4',
@@ -1531,7 +1531,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107715': {
+            107715: {
               posicao: '0',
               njogo: '0',
               rodada: '4',
@@ -1555,7 +1555,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107706': {
+            107706: {
               posicao: '0',
               njogo: '0',
               rodada: '4',
@@ -1579,7 +1579,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107711': {
+            107711: {
               posicao: '0',
               njogo: '0',
               rodada: '4',
@@ -1603,7 +1603,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107705': {
+            107705: {
               posicao: '0',
               njogo: '0',
               rodada: '4',
@@ -1627,7 +1627,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107713': {
+            107713: {
               posicao: '0',
               njogo: '0',
               rodada: '4',
@@ -1651,7 +1651,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107719': {
+            107719: {
               posicao: '0',
               njogo: '0',
               rodada: '4',
@@ -1675,7 +1675,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107703': {
+            107703: {
               posicao: '0',
               njogo: '0',
               rodada: '4',
@@ -1699,7 +1699,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107708': {
+            107708: {
               posicao: '0',
               njogo: '0',
               rodada: '4',
@@ -1723,7 +1723,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107717': {
+            107717: {
               posicao: '0',
               njogo: '0',
               rodada: '4',
@@ -1747,7 +1747,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107727': {
+            107727: {
               posicao: '0',
               njogo: '0',
               rodada: '5',
@@ -1771,7 +1771,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107732': {
+            107732: {
               posicao: '0',
               njogo: '0',
               rodada: '5',
@@ -1795,7 +1795,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107733': {
+            107733: {
               posicao: '0',
               njogo: '0',
               rodada: '5',
@@ -1819,7 +1819,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107730': {
+            107730: {
               posicao: '0',
               njogo: '0',
               rodada: '5',
@@ -1843,7 +1843,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107723': {
+            107723: {
               posicao: '0',
               njogo: '0',
               rodada: '5',
@@ -1867,7 +1867,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107724': {
+            107724: {
               posicao: '0',
               njogo: '0',
               rodada: '5',
@@ -1891,7 +1891,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107726': {
+            107726: {
               posicao: '0',
               njogo: '0',
               rodada: '5',
@@ -1915,7 +1915,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107735': {
+            107735: {
               posicao: '0',
               njogo: '0',
               rodada: '5',
@@ -1939,7 +1939,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107729': {
+            107729: {
               posicao: '0',
               njogo: '0',
               rodada: '5',
@@ -1963,7 +1963,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107734': {
+            107734: {
               posicao: '0',
               njogo: '0',
               rodada: '5',
@@ -1987,7 +1987,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107741': {
+            107741: {
               posicao: '0',
               njogo: '0',
               rodada: '6',
@@ -2011,7 +2011,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107748': {
+            107748: {
               posicao: '0',
               njogo: '0',
               rodada: '6',
@@ -2035,7 +2035,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107743': {
+            107743: {
               posicao: '0',
               njogo: '0',
               rodada: '6',
@@ -2059,7 +2059,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107745': {
+            107745: {
               posicao: '0',
               njogo: '0',
               rodada: '6',
@@ -2083,7 +2083,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107737': {
+            107737: {
               posicao: '0',
               njogo: '0',
               rodada: '6',
@@ -2107,7 +2107,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107738': {
+            107738: {
               posicao: '0',
               njogo: '0',
               rodada: '6',
@@ -2131,7 +2131,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107746': {
+            107746: {
               posicao: '0',
               njogo: '0',
               rodada: '6',
@@ -2155,7 +2155,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107747': {
+            107747: {
               posicao: '0',
               njogo: '0',
               rodada: '6',
@@ -2179,7 +2179,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107740': {
+            107740: {
               posicao: '0',
               njogo: '0',
               rodada: '6',
@@ -2203,7 +2203,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107750': {
+            107750: {
               posicao: '0',
               njogo: '0',
               rodada: '6',
@@ -2227,7 +2227,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107759': {
+            107759: {
               posicao: '0',
               njogo: '0',
               rodada: '7',
@@ -2251,7 +2251,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107756': {
+            107756: {
               posicao: '0',
               njogo: '0',
               rodada: '7',
@@ -2275,7 +2275,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107758': {
+            107758: {
               posicao: '0',
               njogo: '0',
               rodada: '7',
@@ -2299,7 +2299,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107754': {
+            107754: {
               posicao: '0',
               njogo: '0',
               rodada: '7',
@@ -2323,7 +2323,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107755': {
+            107755: {
               posicao: '0',
               njogo: '0',
               rodada: '7',
@@ -2347,7 +2347,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107760': {
+            107760: {
               posicao: '0',
               njogo: '0',
               rodada: '7',
@@ -2371,7 +2371,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107752': {
+            107752: {
               posicao: '0',
               njogo: '0',
               rodada: '7',
@@ -2395,7 +2395,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107753': {
+            107753: {
               posicao: '0',
               njogo: '0',
               rodada: '7',
@@ -2419,7 +2419,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107757': {
+            107757: {
               posicao: '0',
               njogo: '0',
               rodada: '7',
@@ -2443,7 +2443,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107761': {
+            107761: {
               posicao: '0',
               njogo: '0',
               rodada: '7',
@@ -2467,7 +2467,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107766': {
+            107766: {
               posicao: '0',
               njogo: '0',
               rodada: '8',
@@ -2491,7 +2491,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107768': {
+            107768: {
               posicao: '0',
               njogo: '0',
               rodada: '8',
@@ -2515,7 +2515,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107762': {
+            107762: {
               posicao: '0',
               njogo: '0',
               rodada: '8',
@@ -2539,7 +2539,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107770': {
+            107770: {
               posicao: '0',
               njogo: '0',
               rodada: '8',
@@ -2563,7 +2563,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107769': {
+            107769: {
               posicao: '0',
               njogo: '0',
               rodada: '8',
@@ -2587,7 +2587,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107764': {
+            107764: {
               posicao: '0',
               njogo: '0',
               rodada: '8',
@@ -2611,7 +2611,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107765': {
+            107765: {
               posicao: '0',
               njogo: '0',
               rodada: '8',
@@ -2635,7 +2635,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107767': {
+            107767: {
               posicao: '0',
               njogo: '0',
               rodada: '8',
@@ -2659,7 +2659,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107772': {
+            107772: {
               posicao: '0',
               njogo: '0',
               rodada: '8',
@@ -2683,7 +2683,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107763': {
+            107763: {
               posicao: '0',
               njogo: '0',
               rodada: '8',
@@ -2707,7 +2707,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107787': {
+            107787: {
               posicao: '0',
               njogo: '0',
               rodada: '9',
@@ -2731,7 +2731,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107780': {
+            107780: {
               posicao: '0',
               njogo: '0',
               rodada: '9',
@@ -2755,7 +2755,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107777': {
+            107777: {
               posicao: '0',
               njogo: '0',
               rodada: '9',
@@ -2779,7 +2779,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107783': {
+            107783: {
               posicao: '0',
               njogo: '0',
               rodada: '9',
@@ -2803,7 +2803,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107791': {
+            107791: {
               posicao: '0',
               njogo: '0',
               rodada: '9',
@@ -2827,7 +2827,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107785': {
+            107785: {
               posicao: '0',
               njogo: '0',
               rodada: '9',
@@ -2851,7 +2851,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107778': {
+            107778: {
               posicao: '0',
               njogo: '0',
               rodada: '9',
@@ -2875,7 +2875,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107782': {
+            107782: {
               posicao: '0',
               njogo: '0',
               rodada: '9',
@@ -2899,7 +2899,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107788': {
+            107788: {
               posicao: '0',
               njogo: '0',
               rodada: '9',
@@ -2923,7 +2923,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107790': {
+            107790: {
               posicao: '0',
               njogo: '0',
               rodada: '9',
@@ -2947,7 +2947,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107794': {
+            107794: {
               posicao: '0',
               njogo: '0',
               rodada: '10',
@@ -2971,7 +2971,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107798': {
+            107798: {
               posicao: '0',
               njogo: '0',
               rodada: '10',
@@ -2995,7 +2995,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107803': {
+            107803: {
               posicao: '0',
               njogo: '0',
               rodada: '10',
@@ -3019,7 +3019,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107811': {
+            107811: {
               posicao: '0',
               njogo: '0',
               rodada: '10',
@@ -3043,7 +3043,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107805': {
+            107805: {
               posicao: '0',
               njogo: '0',
               rodada: '10',
@@ -3067,7 +3067,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107796': {
+            107796: {
               posicao: '0',
               njogo: '0',
               rodada: '10',
@@ -3091,7 +3091,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107800': {
+            107800: {
               posicao: '0',
               njogo: '0',
               rodada: '10',
@@ -3115,7 +3115,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107813': {
+            107813: {
               posicao: '0',
               njogo: '0',
               rodada: '10',
@@ -3139,7 +3139,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107809': {
+            107809: {
               posicao: '0',
               njogo: '0',
               rodada: '10',
@@ -3163,7 +3163,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107807': {
+            107807: {
               posicao: '0',
               njogo: '0',
               rodada: '10',
@@ -3187,7 +3187,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107827': {
+            107827: {
               posicao: '0',
               njogo: '0',
               rodada: '11',
@@ -3211,7 +3211,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107832': {
+            107832: {
               posicao: '0',
               njogo: '0',
               rodada: '11',
@@ -3235,7 +3235,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107817': {
+            107817: {
               posicao: '0',
               njogo: '0',
               rodada: '11',
@@ -3259,7 +3259,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107822': {
+            107822: {
               posicao: '0',
               njogo: '0',
               rodada: '11',
@@ -3283,7 +3283,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107834': {
+            107834: {
               posicao: '0',
               njogo: '0',
               rodada: '11',
@@ -3307,7 +3307,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107828': {
+            107828: {
               posicao: '0',
               njogo: '0',
               rodada: '11',
@@ -3331,7 +3331,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107819': {
+            107819: {
               posicao: '0',
               njogo: '0',
               rodada: '11',
@@ -3355,7 +3355,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107824': {
+            107824: {
               posicao: '0',
               njogo: '0',
               rodada: '11',
@@ -3379,7 +3379,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107830': {
+            107830: {
               posicao: '0',
               njogo: '0',
               rodada: '11',
@@ -3403,7 +3403,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107826': {
+            107826: {
               posicao: '0',
               njogo: '0',
               rodada: '11',
@@ -3427,7 +3427,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107845': {
+            107845: {
               posicao: '0',
               njogo: '0',
               rodada: '12',
@@ -3451,7 +3451,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107838': {
+            107838: {
               posicao: '0',
               njogo: '0',
               rodada: '12',
@@ -3475,7 +3475,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107840': {
+            107840: {
               posicao: '0',
               njogo: '0',
               rodada: '12',
@@ -3499,7 +3499,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107850': {
+            107850: {
               posicao: '0',
               njogo: '0',
               rodada: '12',
@@ -3523,7 +3523,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107853': {
+            107853: {
               posicao: '0',
               njogo: '0',
               rodada: '12',
@@ -3547,7 +3547,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107847': {
+            107847: {
               posicao: '0',
               njogo: '0',
               rodada: '12',
@@ -3571,7 +3571,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107849': {
+            107849: {
               posicao: '0',
               njogo: '0',
               rodada: '12',
@@ -3595,7 +3595,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107843': {
+            107843: {
               posicao: '0',
               njogo: '0',
               rodada: '12',
@@ -3619,7 +3619,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107856': {
+            107856: {
               posicao: '0',
               njogo: '0',
               rodada: '12',
@@ -3643,7 +3643,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107857': {
+            107857: {
               posicao: '0',
               njogo: '0',
               rodada: '12',
@@ -3667,7 +3667,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107862': {
+            107862: {
               posicao: '0',
               njogo: '0',
               rodada: '13',
@@ -3691,7 +3691,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107868': {
+            107868: {
               posicao: '0',
               njogo: '0',
               rodada: '13',
@@ -3715,7 +3715,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107866': {
+            107866: {
               posicao: '0',
               njogo: '0',
               rodada: '13',
@@ -3739,7 +3739,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107870': {
+            107870: {
               posicao: '0',
               njogo: '0',
               rodada: '13',
@@ -3763,7 +3763,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107872': {
+            107872: {
               posicao: '0',
               njogo: '0',
               rodada: '13',
@@ -3787,7 +3787,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107860': {
+            107860: {
               posicao: '0',
               njogo: '0',
               rodada: '13',
@@ -3811,7 +3811,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107864': {
+            107864: {
               posicao: '0',
               njogo: '0',
               rodada: '13',
@@ -3835,7 +3835,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107867': {
+            107867: {
               posicao: '0',
               njogo: '0',
               rodada: '13',
@@ -3859,7 +3859,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107859': {
+            107859: {
               posicao: '0',
               njogo: '0',
               rodada: '13',
@@ -3883,7 +3883,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107874': {
+            107874: {
               posicao: '0',
               njogo: '0',
               rodada: '13',
@@ -3907,7 +3907,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107882': {
+            107882: {
               posicao: '0',
               njogo: '0',
               rodada: '14',
@@ -3931,7 +3931,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107887': {
+            107887: {
               posicao: '0',
               njogo: '0',
               rodada: '14',
@@ -3955,7 +3955,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107888': {
+            107888: {
               posicao: '0',
               njogo: '0',
               rodada: '14',
@@ -3979,7 +3979,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107880': {
+            107880: {
               posicao: '0',
               njogo: '0',
               rodada: '14',
@@ -4003,7 +4003,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107877': {
+            107877: {
               posicao: '0',
               njogo: '0',
               rodada: '14',
@@ -4027,7 +4027,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107885': {
+            107885: {
               posicao: '0',
               njogo: '0',
               rodada: '14',
@@ -4051,7 +4051,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107890': {
+            107890: {
               posicao: '0',
               njogo: '0',
               rodada: '14',
@@ -4075,7 +4075,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107892': {
+            107892: {
               posicao: '0',
               njogo: '0',
               rodada: '14',
@@ -4099,7 +4099,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107895': {
+            107895: {
               posicao: '0',
               njogo: '0',
               rodada: '14',
@@ -4123,7 +4123,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107896': {
+            107896: {
               posicao: '0',
               njogo: '0',
               rodada: '14',
@@ -4147,7 +4147,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107905': {
+            107905: {
               posicao: '0',
               njogo: '0',
               rodada: '15',
@@ -4171,7 +4171,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107906': {
+            107906: {
               posicao: '0',
               njogo: '0',
               rodada: '15',
@@ -4195,7 +4195,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107910': {
+            107910: {
               posicao: '0',
               njogo: '0',
               rodada: '15',
@@ -4219,7 +4219,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107920': {
+            107920: {
               posicao: '0',
               njogo: '0',
               rodada: '15',
@@ -4243,7 +4243,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107901': {
+            107901: {
               posicao: '0',
               njogo: '0',
               rodada: '15',
@@ -4267,7 +4267,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107903': {
+            107903: {
               posicao: '0',
               njogo: '0',
               rodada: '15',
@@ -4291,7 +4291,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107907': {
+            107907: {
               posicao: '0',
               njogo: '0',
               rodada: '15',
@@ -4315,7 +4315,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107912': {
+            107912: {
               posicao: '0',
               njogo: '0',
               rodada: '15',
@@ -4339,7 +4339,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107917': {
+            107917: {
               posicao: '0',
               njogo: '0',
               rodada: '15',
@@ -4363,7 +4363,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107915': {
+            107915: {
               posicao: '0',
               njogo: '0',
               rodada: '15',
@@ -4387,7 +4387,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107924': {
+            107924: {
               posicao: '0',
               njogo: '0',
               rodada: '16',
@@ -4411,7 +4411,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107923': {
+            107923: {
               posicao: '0',
               njogo: '0',
               rodada: '16',
@@ -4435,7 +4435,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107928': {
+            107928: {
               posicao: '0',
               njogo: '0',
               rodada: '16',
@@ -4459,7 +4459,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107929': {
+            107929: {
               posicao: '0',
               njogo: '0',
               rodada: '16',
@@ -4483,7 +4483,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107935': {
+            107935: {
               posicao: '0',
               njogo: '0',
               rodada: '16',
@@ -4507,7 +4507,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107925': {
+            107925: {
               posicao: '0',
               njogo: '0',
               rodada: '16',
@@ -4531,7 +4531,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107933': {
+            107933: {
               posicao: '0',
               njogo: '0',
               rodada: '16',
@@ -4555,7 +4555,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107937': {
+            107937: {
               posicao: '0',
               njogo: '0',
               rodada: '16',
@@ -4579,7 +4579,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107931': {
+            107931: {
               posicao: '0',
               njogo: '0',
               rodada: '16',
@@ -4603,7 +4603,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107926': {
+            107926: {
               posicao: '0',
               njogo: '0',
               rodada: '16',
@@ -4627,7 +4627,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107949': {
+            107949: {
               posicao: '0',
               njogo: '0',
               rodada: '17',
@@ -4651,7 +4651,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107957': {
+            107957: {
               posicao: '0',
               njogo: '0',
               rodada: '17',
@@ -4675,7 +4675,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107955': {
+            107955: {
               posicao: '0',
               njogo: '0',
               rodada: '17',
@@ -4699,7 +4699,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107959': {
+            107959: {
               posicao: '0',
               njogo: '0',
               rodada: '17',
@@ -4723,7 +4723,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107941': {
+            107941: {
               posicao: '0',
               njogo: '0',
               rodada: '17',
@@ -4747,7 +4747,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107945': {
+            107945: {
               posicao: '0',
               njogo: '0',
               rodada: '17',
@@ -4771,7 +4771,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107950': {
+            107950: {
               posicao: '0',
               njogo: '0',
               rodada: '17',
@@ -4795,7 +4795,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107943': {
+            107943: {
               posicao: '0',
               njogo: '0',
               rodada: '17',
@@ -4819,7 +4819,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107946': {
+            107946: {
               posicao: '0',
               njogo: '0',
               rodada: '17',
@@ -4843,7 +4843,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107952': {
+            107952: {
               posicao: '0',
               njogo: '0',
               rodada: '17',
@@ -4867,7 +4867,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107968': {
+            107968: {
               posicao: '0',
               njogo: '0',
               rodada: '18',
@@ -4891,7 +4891,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107973': {
+            107973: {
               posicao: '0',
               njogo: '0',
               rodada: '18',
@@ -4915,7 +4915,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107966': {
+            107966: {
               posicao: '0',
               njogo: '0',
               rodada: '18',
@@ -4939,7 +4939,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107977': {
+            107977: {
               posicao: '0',
               njogo: '0',
               rodada: '18',
@@ -4963,7 +4963,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107963': {
+            107963: {
               posicao: '0',
               njogo: '0',
               rodada: '18',
@@ -4987,7 +4987,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107979': {
+            107979: {
               posicao: '0',
               njogo: '0',
               rodada: '18',
@@ -5011,7 +5011,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107964': {
+            107964: {
               posicao: '0',
               njogo: '0',
               rodada: '18',
@@ -5035,7 +5035,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107970': {
+            107970: {
               posicao: '0',
               njogo: '0',
               rodada: '18',
@@ -5059,7 +5059,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107975': {
+            107975: {
               posicao: '0',
               njogo: '0',
               rodada: '18',
@@ -5083,7 +5083,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107982': {
+            107982: {
               posicao: '0',
               njogo: '0',
               rodada: '18',
@@ -5107,7 +5107,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107995': {
+            107995: {
               posicao: '0',
               njogo: '0',
               rodada: '19',
@@ -5131,7 +5131,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107990': {
+            107990: {
               posicao: '0',
               njogo: '0',
               rodada: '19',
@@ -5155,7 +5155,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108000': {
+            108000: {
               posicao: '0',
               njogo: '0',
               rodada: '19',
@@ -5179,7 +5179,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107988': {
+            107988: {
               posicao: '0',
               njogo: '0',
               rodada: '19',
@@ -5203,7 +5203,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107986': {
+            107986: {
               posicao: '0',
               njogo: '0',
               rodada: '19',
@@ -5227,7 +5227,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108003': {
+            108003: {
               posicao: '0',
               njogo: '0',
               rodada: '19',
@@ -5251,7 +5251,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107984': {
+            107984: {
               posicao: '0',
               njogo: '0',
               rodada: '19',
@@ -5275,7 +5275,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107997': {
+            107997: {
               posicao: '0',
               njogo: '0',
               rodada: '19',
@@ -5299,7 +5299,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108001': {
+            108001: {
               posicao: '0',
               njogo: '0',
               rodada: '19',
@@ -5323,7 +5323,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107992': {
+            107992: {
               posicao: '0',
               njogo: '0',
               rodada: '19',
@@ -5347,7 +5347,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108019': {
+            108019: {
               posicao: '0',
               njogo: '0',
               rodada: '20',
@@ -5371,7 +5371,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108009': {
+            108009: {
               posicao: '0',
               njogo: '0',
               rodada: '20',
@@ -5395,7 +5395,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108012': {
+            108012: {
               posicao: '0',
               njogo: '0',
               rodada: '20',
@@ -5419,7 +5419,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108014': {
+            108014: {
               posicao: '0',
               njogo: '0',
               rodada: '20',
@@ -5443,7 +5443,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108007': {
+            108007: {
               posicao: '0',
               njogo: '0',
               rodada: '20',
@@ -5467,7 +5467,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108010': {
+            108010: {
               posicao: '0',
               njogo: '0',
               rodada: '20',
@@ -5491,7 +5491,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108016': {
+            108016: {
               posicao: '0',
               njogo: '0',
               rodada: '20',
@@ -5515,7 +5515,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108022': {
+            108022: {
               posicao: '0',
               njogo: '0',
               rodada: '20',
@@ -5538,7 +5538,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108021': {
+            108021: {
               posicao: '0',
               njogo: '0',
               rodada: '20',
@@ -5562,7 +5562,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108020': {
+            108020: {
               posicao: '0',
               njogo: '0',
               rodada: '20',
@@ -5586,7 +5586,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108005': {
+            108005: {
               posicao: '0',
               njogo: '0',
               rodada: '21',
@@ -5610,7 +5610,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108008': {
+            108008: {
               posicao: '0',
               njogo: '0',
               rodada: '21',
@@ -5634,7 +5634,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108011': {
+            108011: {
               posicao: '0',
               njogo: '0',
               rodada: '21',
@@ -5658,7 +5658,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108017': {
+            108017: {
               posicao: '0',
               njogo: '0',
               rodada: '21',
@@ -5682,7 +5682,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108006': {
+            108006: {
               posicao: '0',
               njogo: '0',
               rodada: '21',
@@ -5706,7 +5706,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108002': {
+            108002: {
               posicao: '0',
               njogo: '0',
               rodada: '21',
@@ -5730,7 +5730,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108013': {
+            108013: {
               posicao: '0',
               njogo: '0',
               rodada: '21',
@@ -5754,7 +5754,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108018': {
+            108018: {
               posicao: '0',
               njogo: '0',
               rodada: '21',
@@ -5778,7 +5778,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108004': {
+            108004: {
               posicao: '0',
               njogo: '0',
               rodada: '21',
@@ -5802,7 +5802,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '108015': {
+            108015: {
               posicao: '0',
               njogo: '0',
               rodada: '21',
@@ -5826,7 +5826,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107993': {
+            107993: {
               posicao: '0',
               njogo: '0',
               rodada: '22',
@@ -5850,7 +5850,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107989': {
+            107989: {
               posicao: '0',
               njogo: '0',
               rodada: '22',
@@ -5874,7 +5874,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107983': {
+            107983: {
               posicao: '0',
               njogo: '0',
               rodada: '22',
@@ -5898,7 +5898,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107991': {
+            107991: {
               posicao: '0',
               njogo: '0',
               rodada: '22',
@@ -5922,7 +5922,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107994': {
+            107994: {
               posicao: '0',
               njogo: '0',
               rodada: '22',
@@ -5946,7 +5946,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107985': {
+            107985: {
               posicao: '0',
               njogo: '0',
               rodada: '22',
@@ -5970,7 +5970,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107999': {
+            107999: {
               posicao: '0',
               njogo: '0',
               rodada: '22',
@@ -5994,7 +5994,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107987': {
+            107987: {
               posicao: '0',
               njogo: '0',
               rodada: '22',
@@ -6018,7 +6018,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107996': {
+            107996: {
               posicao: '0',
               njogo: '0',
               rodada: '22',
@@ -6042,7 +6042,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107998': {
+            107998: {
               posicao: '0',
               njogo: '0',
               rodada: '22',
@@ -6066,7 +6066,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107972': {
+            107972: {
               posicao: '0',
               njogo: '0',
               rodada: '23',
@@ -6090,7 +6090,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107974': {
+            107974: {
               posicao: '0',
               njogo: '0',
               rodada: '23',
@@ -6114,7 +6114,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107965': {
+            107965: {
               posicao: '0',
               njogo: '0',
               rodada: '23',
@@ -6138,7 +6138,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107980': {
+            107980: {
               posicao: '0',
               njogo: '0',
               rodada: '23',
@@ -6162,7 +6162,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107967': {
+            107967: {
               posicao: '0',
               njogo: '0',
               rodada: '23',
@@ -6186,7 +6186,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107978': {
+            107978: {
               posicao: '0',
               njogo: '0',
               rodada: '23',
@@ -6210,7 +6210,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107969': {
+            107969: {
               posicao: '0',
               njogo: '0',
               rodada: '23',
@@ -6234,7 +6234,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107971': {
+            107971: {
               posicao: '0',
               njogo: '0',
               rodada: '23',
@@ -6258,7 +6258,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107976': {
+            107976: {
               posicao: '0',
               njogo: '0',
               rodada: '23',
@@ -6282,7 +6282,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107981': {
+            107981: {
               posicao: '0',
               njogo: '0',
               rodada: '23',
@@ -6306,7 +6306,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107958': {
+            107958: {
               posicao: '0',
               njogo: '0',
               rodada: '24',
@@ -6330,7 +6330,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107962': {
+            107962: {
               posicao: '0',
               njogo: '0',
               rodada: '24',
@@ -6354,7 +6354,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107951': {
+            107951: {
               posicao: '0',
               njogo: '0',
               rodada: '24',
@@ -6378,7 +6378,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107947': {
+            107947: {
               posicao: '0',
               njogo: '0',
               rodada: '24',
@@ -6402,7 +6402,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107961': {
+            107961: {
               posicao: '0',
               njogo: '0',
               rodada: '24',
@@ -6426,7 +6426,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107948': {
+            107948: {
               posicao: '0',
               njogo: '0',
               rodada: '24',
@@ -6450,7 +6450,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107954': {
+            107954: {
               posicao: '0',
               njogo: '0',
               rodada: '24',
@@ -6474,7 +6474,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107953': {
+            107953: {
               posicao: '0',
               njogo: '0',
               rodada: '24',
@@ -6498,7 +6498,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107960': {
+            107960: {
               posicao: '0',
               njogo: '0',
               rodada: '24',
@@ -6522,7 +6522,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107956': {
+            107956: {
               posicao: '0',
               njogo: '0',
               rodada: '24',
@@ -6546,7 +6546,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107942': {
+            107942: {
               posicao: '0',
               njogo: '0',
               rodada: '25',
@@ -6570,7 +6570,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107939': {
+            107939: {
               posicao: '0',
               njogo: '0',
               rodada: '25',
@@ -6594,7 +6594,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107934': {
+            107934: {
               posicao: '0',
               njogo: '0',
               rodada: '25',
@@ -6618,7 +6618,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107927': {
+            107927: {
               posicao: '0',
               njogo: '0',
               rodada: '25',
@@ -6642,7 +6642,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107932': {
+            107932: {
               posicao: '0',
               njogo: '0',
               rodada: '25',
@@ -6666,7 +6666,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107938': {
+            107938: {
               posicao: '0',
               njogo: '0',
               rodada: '25',
@@ -6690,7 +6690,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107944': {
+            107944: {
               posicao: '0',
               njogo: '0',
               rodada: '25',
@@ -6714,7 +6714,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107936': {
+            107936: {
               posicao: '0',
               njogo: '0',
               rodada: '25',
@@ -6738,7 +6738,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107930': {
+            107930: {
               posicao: '0',
               njogo: '0',
               rodada: '25',
@@ -6762,7 +6762,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107940': {
+            107940: {
               posicao: '0',
               njogo: '0',
               rodada: '25',
@@ -6786,7 +6786,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107908': {
+            107908: {
               posicao: '0',
               njogo: '0',
               rodada: '26',
@@ -6810,7 +6810,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107922': {
+            107922: {
               posicao: '0',
               njogo: '0',
               rodada: '26',
@@ -6834,7 +6834,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107911': {
+            107911: {
               posicao: '0',
               njogo: '0',
               rodada: '26',
@@ -6858,7 +6858,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107909': {
+            107909: {
               posicao: '0',
               njogo: '0',
               rodada: '26',
@@ -6882,7 +6882,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107913': {
+            107913: {
               posicao: '0',
               njogo: '0',
               rodada: '26',
@@ -6906,7 +6906,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107916': {
+            107916: {
               posicao: '0',
               njogo: '0',
               rodada: '26',
@@ -6930,7 +6930,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107921': {
+            107921: {
               posicao: '0',
               njogo: '0',
               rodada: '26',
@@ -6954,7 +6954,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107914': {
+            107914: {
               posicao: '0',
               njogo: '0',
               rodada: '26',
@@ -6978,7 +6978,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107919': {
+            107919: {
               posicao: '0',
               njogo: '0',
               rodada: '26',
@@ -7002,7 +7002,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107918': {
+            107918: {
               posicao: '0',
               njogo: '0',
               rodada: '26',
@@ -7026,7 +7026,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107893': {
+            107893: {
               posicao: '0',
               njogo: '0',
               rodada: '27',
@@ -7050,7 +7050,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107894': {
+            107894: {
               posicao: '0',
               njogo: '0',
               rodada: '27',
@@ -7074,7 +7074,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107889': {
+            107889: {
               posicao: '0',
               njogo: '0',
               rodada: '27',
@@ -7098,7 +7098,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107891': {
+            107891: {
               posicao: '0',
               njogo: '0',
               rodada: '27',
@@ -7122,7 +7122,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107897': {
+            107897: {
               posicao: '0',
               njogo: '0',
               rodada: '27',
@@ -7146,7 +7146,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107898': {
+            107898: {
               posicao: '0',
               njogo: '0',
               rodada: '27',
@@ -7170,7 +7170,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107900': {
+            107900: {
               posicao: '0',
               njogo: '0',
               rodada: '27',
@@ -7194,7 +7194,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107904': {
+            107904: {
               posicao: '0',
               njogo: '0',
               rodada: '27',
@@ -7218,7 +7218,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107902': {
+            107902: {
               posicao: '0',
               njogo: '0',
               rodada: '27',
@@ -7242,7 +7242,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107899': {
+            107899: {
               posicao: '0',
               njogo: '0',
               rodada: '27',
@@ -7266,7 +7266,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107875': {
+            107875: {
               posicao: '0',
               njogo: '0',
               rodada: '28',
@@ -7290,7 +7290,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107876': {
+            107876: {
               posicao: '0',
               njogo: '0',
               rodada: '28',
@@ -7314,7 +7314,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107884': {
+            107884: {
               posicao: '0',
               njogo: '0',
               rodada: '28',
@@ -7338,7 +7338,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107881': {
+            107881: {
               posicao: '0',
               njogo: '0',
               rodada: '28',
@@ -7362,7 +7362,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107873': {
+            107873: {
               posicao: '0',
               njogo: '0',
               rodada: '28',
@@ -7386,7 +7386,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107871': {
+            107871: {
               posicao: '0',
               njogo: '0',
               rodada: '28',
@@ -7410,7 +7410,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107878': {
+            107878: {
               posicao: '0',
               njogo: '0',
               rodada: '28',
@@ -7434,7 +7434,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107886': {
+            107886: {
               posicao: '0',
               njogo: '0',
               rodada: '28',
@@ -7458,7 +7458,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107883': {
+            107883: {
               posicao: '0',
               njogo: '0',
               rodada: '28',
@@ -7482,7 +7482,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107879': {
+            107879: {
               posicao: '0',
               njogo: '0',
               rodada: '28',
@@ -7506,7 +7506,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107848': {
+            107848: {
               posicao: '0',
               njogo: '0',
               rodada: '29',
@@ -7530,7 +7530,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107852': {
+            107852: {
               posicao: '0',
               njogo: '0',
               rodada: '29',
@@ -7554,7 +7554,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107861': {
+            107861: {
               posicao: '0',
               njogo: '0',
               rodada: '29',
@@ -7578,7 +7578,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107851': {
+            107851: {
               posicao: '0',
               njogo: '0',
               rodada: '29',
@@ -7602,7 +7602,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107865': {
+            107865: {
               posicao: '0',
               njogo: '0',
               rodada: '29',
@@ -7626,7 +7626,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107869': {
+            107869: {
               posicao: '0',
               njogo: '0',
               rodada: '29',
@@ -7650,7 +7650,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107854': {
+            107854: {
               posicao: '0',
               njogo: '0',
               rodada: '29',
@@ -7674,7 +7674,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107863': {
+            107863: {
               posicao: '0',
               njogo: '0',
               rodada: '29',
@@ -7698,7 +7698,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107846': {
+            107846: {
               posicao: '0',
               njogo: '0',
               rodada: '29',
@@ -7722,7 +7722,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107858': {
+            107858: {
               posicao: '0',
               njogo: '0',
               rodada: '29',
@@ -7746,7 +7746,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107833': {
+            107833: {
               posicao: '0',
               njogo: '0',
               rodada: '30',
@@ -7770,7 +7770,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107835': {
+            107835: {
               posicao: '0',
               njogo: '0',
               rodada: '30',
@@ -7794,7 +7794,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107839': {
+            107839: {
               posicao: '0',
               njogo: '0',
               rodada: '30',
@@ -7818,7 +7818,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107841': {
+            107841: {
               posicao: '0',
               njogo: '0',
               rodada: '30',
@@ -7842,7 +7842,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107837': {
+            107837: {
               posicao: '0',
               njogo: '0',
               rodada: '30',
@@ -7866,7 +7866,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107829': {
+            107829: {
               posicao: '0',
               njogo: '0',
               rodada: '30',
@@ -7890,7 +7890,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107844': {
+            107844: {
               posicao: '0',
               njogo: '0',
               rodada: '30',
@@ -7914,7 +7914,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107831': {
+            107831: {
               posicao: '0',
               njogo: '0',
               rodada: '30',
@@ -7938,7 +7938,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107836': {
+            107836: {
               posicao: '0',
               njogo: '0',
               rodada: '30',
@@ -7962,7 +7962,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107842': {
+            107842: {
               posicao: '0',
               njogo: '0',
               rodada: '30',
@@ -7986,7 +7986,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107815': {
+            107815: {
               posicao: '0',
               njogo: '0',
               rodada: '31',
@@ -8010,7 +8010,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107812': {
+            107812: {
               posicao: '0',
               njogo: '0',
               rodada: '31',
@@ -8034,7 +8034,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107821': {
+            107821: {
               posicao: '0',
               njogo: '0',
               rodada: '31',
@@ -8058,7 +8058,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107818': {
+            107818: {
               posicao: '0',
               njogo: '0',
               rodada: '31',
@@ -8082,7 +8082,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107823': {
+            107823: {
               posicao: '0',
               njogo: '0',
               rodada: '31',
@@ -8106,7 +8106,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107825': {
+            107825: {
               posicao: '0',
               njogo: '0',
               rodada: '31',
@@ -8130,7 +8130,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107814': {
+            107814: {
               posicao: '0',
               njogo: '0',
               rodada: '31',
@@ -8154,7 +8154,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107816': {
+            107816: {
               posicao: '0',
               njogo: '0',
               rodada: '31',
@@ -8178,7 +8178,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107820': {
+            107820: {
               posicao: '0',
               njogo: '0',
               rodada: '31',
@@ -8202,7 +8202,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107810': {
+            107810: {
               posicao: '0',
               njogo: '0',
               rodada: '31',
@@ -8226,7 +8226,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107806': {
+            107806: {
               posicao: '0',
               njogo: '0',
               rodada: '32',
@@ -8250,7 +8250,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107797': {
+            107797: {
               posicao: '0',
               njogo: '0',
               rodada: '32',
@@ -8274,7 +8274,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107792': {
+            107792: {
               posicao: '0',
               njogo: '0',
               rodada: '32',
@@ -8298,7 +8298,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107793': {
+            107793: {
               posicao: '0',
               njogo: '0',
               rodada: '32',
@@ -8322,7 +8322,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107799': {
+            107799: {
               posicao: '0',
               njogo: '0',
               rodada: '32',
@@ -8346,7 +8346,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107801': {
+            107801: {
               posicao: '0',
               njogo: '0',
               rodada: '32',
@@ -8370,7 +8370,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107795': {
+            107795: {
               posicao: '0',
               njogo: '0',
               rodada: '32',
@@ -8394,7 +8394,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107804': {
+            107804: {
               posicao: '0',
               njogo: '0',
               rodada: '32',
@@ -8418,7 +8418,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107808': {
+            107808: {
               posicao: '0',
               njogo: '0',
               rodada: '32',
@@ -8442,7 +8442,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107802': {
+            107802: {
               posicao: '0',
               njogo: '0',
               rodada: '32',
@@ -8466,7 +8466,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107776': {
+            107776: {
               posicao: '0',
               njogo: '0',
               rodada: '33',
@@ -8490,7 +8490,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107781': {
+            107781: {
               posicao: '0',
               njogo: '0',
               rodada: '33',
@@ -8514,7 +8514,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107786': {
+            107786: {
               posicao: '0',
               njogo: '0',
               rodada: '33',
@@ -8538,7 +8538,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107771': {
+            107771: {
               posicao: '0',
               njogo: '0',
               rodada: '33',
@@ -8562,7 +8562,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107784': {
+            107784: {
               posicao: '0',
               njogo: '0',
               rodada: '33',
@@ -8586,7 +8586,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107789': {
+            107789: {
               posicao: '0',
               njogo: '0',
               rodada: '33',
@@ -8610,7 +8610,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107775': {
+            107775: {
               posicao: '0',
               njogo: '0',
               rodada: '33',
@@ -8634,7 +8634,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107774': {
+            107774: {
               posicao: '0',
               njogo: '0',
               rodada: '33',
@@ -8658,7 +8658,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107779': {
+            107779: {
               posicao: '0',
               njogo: '0',
               rodada: '33',
@@ -8682,7 +8682,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107773': {
+            107773: {
               posicao: '0',
               njogo: '0',
               rodada: '33',
@@ -8706,7 +8706,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107739': {
+            107739: {
               posicao: '0',
               njogo: '0',
               rodada: '34',
@@ -8730,7 +8730,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107736': {
+            107736: {
               posicao: '0',
               njogo: '0',
               rodada: '34',
@@ -8754,7 +8754,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107725': {
+            107725: {
               posicao: '0',
               njogo: '0',
               rodada: '34',
@@ -8778,7 +8778,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107731': {
+            107731: {
               posicao: '0',
               njogo: '0',
               rodada: '34',
@@ -8802,7 +8802,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107749': {
+            107749: {
               posicao: '0',
               njogo: '0',
               rodada: '34',
@@ -8826,7 +8826,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107742': {
+            107742: {
               posicao: '0',
               njogo: '0',
               rodada: '34',
@@ -8850,7 +8850,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107722': {
+            107722: {
               posicao: '0',
               njogo: '0',
               rodada: '34',
@@ -8874,7 +8874,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107728': {
+            107728: {
               posicao: '0',
               njogo: '0',
               rodada: '34',
@@ -8898,7 +8898,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107744': {
+            107744: {
               posicao: '0',
               njogo: '0',
               rodada: '34',
@@ -8922,7 +8922,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107751': {
+            107751: {
               posicao: '0',
               njogo: '0',
               rodada: '34',
@@ -8946,7 +8946,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107702': {
+            107702: {
               posicao: '0',
               njogo: '0',
               rodada: '35',
@@ -8970,7 +8970,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107718': {
+            107718: {
               posicao: '0',
               njogo: '0',
               rodada: '35',
@@ -8994,7 +8994,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107720': {
+            107720: {
               posicao: '0',
               njogo: '0',
               rodada: '35',
@@ -9018,7 +9018,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107709': {
+            107709: {
               posicao: '0',
               njogo: '0',
               rodada: '35',
@@ -9042,7 +9042,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107714': {
+            107714: {
               posicao: '0',
               njogo: '0',
               rodada: '35',
@@ -9066,7 +9066,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107721': {
+            107721: {
               posicao: '0',
               njogo: '0',
               rodada: '35',
@@ -9090,7 +9090,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107716': {
+            107716: {
               posicao: '0',
               njogo: '0',
               rodada: '35',
@@ -9114,7 +9114,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107707': {
+            107707: {
               posicao: '0',
               njogo: '0',
               rodada: '35',
@@ -9138,7 +9138,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107712': {
+            107712: {
               posicao: '0',
               njogo: '0',
               rodada: '35',
@@ -9162,7 +9162,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107704': {
+            107704: {
               posicao: '0',
               njogo: '0',
               rodada: '35',
@@ -9186,7 +9186,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107685': {
+            107685: {
               posicao: '0',
               njogo: '0',
               rodada: '36',
@@ -9210,7 +9210,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107693': {
+            107693: {
               posicao: '0',
               njogo: '0',
               rodada: '36',
@@ -9234,7 +9234,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107686': {
+            107686: {
               posicao: '0',
               njogo: '0',
               rodada: '36',
@@ -9258,7 +9258,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107695': {
+            107695: {
               posicao: '0',
               njogo: '0',
               rodada: '36',
@@ -9282,7 +9282,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107697': {
+            107697: {
               posicao: '0',
               njogo: '0',
               rodada: '36',
@@ -9306,7 +9306,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107683': {
+            107683: {
               posicao: '0',
               njogo: '0',
               rodada: '36',
@@ -9330,7 +9330,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107699': {
+            107699: {
               posicao: '0',
               njogo: '0',
               rodada: '36',
@@ -9354,7 +9354,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107681': {
+            107681: {
               posicao: '0',
               njogo: '0',
               rodada: '36',
@@ -9378,7 +9378,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107688': {
+            107688: {
               posicao: '0',
               njogo: '0',
               rodada: '36',
@@ -9402,7 +9402,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107690': {
+            107690: {
               posicao: '0',
               njogo: '0',
               rodada: '36',
@@ -9426,7 +9426,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107678': {
+            107678: {
               posicao: '0',
               njogo: '0',
               rodada: '37',
@@ -9450,7 +9450,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107663': {
+            107663: {
               posicao: '0',
               njogo: '0',
               rodada: '37',
@@ -9474,7 +9474,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107665': {
+            107665: {
               posicao: '0',
               njogo: '0',
               rodada: '37',
@@ -9498,7 +9498,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107674': {
+            107674: {
               posicao: '0',
               njogo: '0',
               rodada: '37',
@@ -9522,7 +9522,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107669': {
+            107669: {
               posicao: '0',
               njogo: '0',
               rodada: '37',
@@ -9546,7 +9546,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107672': {
+            107672: {
               posicao: '0',
               njogo: '0',
               rodada: '37',
@@ -9570,7 +9570,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107661': {
+            107661: {
               posicao: '0',
               njogo: '0',
               rodada: '37',
@@ -9594,7 +9594,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107667': {
+            107667: {
               posicao: '0',
               njogo: '0',
               rodada: '37',
@@ -9618,7 +9618,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107676': {
+            107676: {
               posicao: '0',
               njogo: '0',
               rodada: '37',
@@ -9642,7 +9642,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107670': {
+            107670: {
               posicao: '0',
               njogo: '0',
               rodada: '37',
@@ -9666,7 +9666,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107642': {
+            107642: {
               posicao: '0',
               njogo: '0',
               rodada: '38',
@@ -9690,7 +9690,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107643': {
+            107643: {
               posicao: '0',
               njogo: '0',
               rodada: '38',
@@ -9714,7 +9714,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107644': {
+            107644: {
               posicao: '0',
               njogo: '0',
               rodada: '38',
@@ -9738,7 +9738,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107646': {
+            107646: {
               posicao: '0',
               njogo: '0',
               rodada: '38',
@@ -9762,7 +9762,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107648': {
+            107648: {
               posicao: '0',
               njogo: '0',
               rodada: '38',
@@ -9786,7 +9786,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107650': {
+            107650: {
               posicao: '0',
               njogo: '0',
               rodada: '38',
@@ -9810,7 +9810,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107652': {
+            107652: {
               posicao: '0',
               njogo: '0',
               rodada: '38',
@@ -9834,7 +9834,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107655': {
+            107655: {
               posicao: '0',
               njogo: '0',
               rodada: '38',
@@ -9858,7 +9858,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107657': {
+            107657: {
               posicao: '0',
               njogo: '0',
               rodada: '38',
@@ -9882,7 +9882,7 @@ const times = [
               'eliminou-jogo-volta': false,
               'classificou-gols-fora': false,
             },
-            '107658': {
+            107658: {
               posicao: '0',
               njogo: '0',
               rodada: '38',
@@ -9934,7 +9934,7 @@ const times = [
             ],
           },
           equipe: {
-            '1': {
+            1: {
               id: '1',
               pos: '1',
               'ganho-pos': null,
@@ -9950,7 +9950,7 @@ const times = [
               ap: '79',
               obs: null,
             },
-            '22': {
+            22: {
               id: '22',
               pos: '2',
               'ganho-pos': null,
@@ -9966,7 +9966,7 @@ const times = [
               ap: '65',
               obs: null,
             },
-            '17': {
+            17: {
               id: '17',
               pos: '3',
               'ganho-pos': null,
@@ -9982,7 +9982,7 @@ const times = [
               ap: '65',
               obs: null,
             },
-            '13': {
+            13: {
               id: '13',
               pos: '4',
               'ganho-pos': null,
@@ -9998,7 +9998,7 @@ const times = [
               ap: '57',
               obs: null,
             },
-            '3': {
+            3: {
               id: '3',
               pos: '5',
               'ganho-pos': null,
@@ -10014,7 +10014,7 @@ const times = [
               ap: '56',
               obs: null,
             },
-            '24': {
+            24: {
               id: '24',
               pos: '6',
               'ganho-pos': null,
@@ -10030,7 +10030,7 @@ const times = [
               ap: '55',
               obs: null,
             },
-            '15': {
+            15: {
               id: '15',
               pos: '7',
               'ganho-pos': '1',
@@ -10046,7 +10046,7 @@ const times = [
               ap: '50',
               obs: null,
             },
-            '6': {
+            6: {
               id: '6',
               pos: '8',
               'ganho-pos': '-1',
@@ -10062,7 +10062,7 @@ const times = [
               ap: '49',
               obs: null,
             },
-            '35': {
+            35: {
               id: '35',
               pos: '9',
               'ganho-pos': null,
@@ -10078,7 +10078,7 @@ const times = [
               ap: '46',
               obs: null,
             },
-            '12': {
+            12: {
               id: '12',
               pos: '10',
               'ganho-pos': null,
@@ -10094,7 +10094,7 @@ const times = [
               ap: '46',
               obs: null,
             },
-            '30': {
+            30: {
               id: '30',
               pos: '11',
               'ganho-pos': null,
@@ -10110,7 +10110,7 @@ const times = [
               ap: '43',
               obs: null,
             },
-            '25': {
+            25: {
               id: '25',
               pos: '12',
               'ganho-pos': '1',
@@ -10126,7 +10126,7 @@ const times = [
               ap: '43',
               obs: null,
             },
-            '4': {
+            4: {
               id: '4',
               pos: '13',
               'ganho-pos': '-1',
@@ -10142,7 +10142,7 @@ const times = [
               ap: '42',
               obs: null,
             },
-            '11': {
+            11: {
               id: '11',
               pos: '14',
               'ganho-pos': null,
@@ -10158,7 +10158,7 @@ const times = [
               ap: '40',
               obs: null,
             },
-            '5': {
+            5: {
               id: '5',
               pos: '15',
               'ganho-pos': null,
@@ -10174,7 +10174,7 @@ const times = [
               ap: '38',
               obs: null,
             },
-            '33': {
+            33: {
               id: '33',
               pos: '16',
               'ganho-pos': null,
@@ -10190,7 +10190,7 @@ const times = [
               ap: '34',
               obs: null,
             },
-            '9': {
+            9: {
               id: '9',
               pos: '17',
               'ganho-pos': null,
@@ -10206,7 +10206,7 @@ const times = [
               ap: '32',
               obs: null,
             },
-            '1138': {
+            1138: {
               id: '1138',
               pos: '18',
               'ganho-pos': null,
@@ -10222,7 +10222,7 @@ const times = [
               ap: '28',
               obs: null,
             },
-            '695': {
+            695: {
               id: '695',
               pos: '18',
               'ganho-pos': null,
@@ -10238,7 +10238,7 @@ const times = [
               ap: '28',
               obs: null,
             },
-            '29': {
+            29: {
               id: '29',
               pos: '20',
               'ganho-pos': null,
@@ -10272,7 +10272,7 @@ const times = [
       },
     ],
     equipes: {
-      '3': {
+      3: {
         id: '3',
         nome: 'Clube Athletico Paranaense',
         nomeComum: 'Athletico',
@@ -10285,7 +10285,7 @@ const times = [
         cor1: 'red',
         cor2: 'black',
       },
-      '4': {
+      4: {
         id: '4',
         nome: 'Clube Atlético Mineiro',
         nomeComum: 'Atlético-MG',
@@ -10298,7 +10298,7 @@ const times = [
         cor1: 'black',
         cor2: 'white',
       },
-      '29': {
+      29: {
         id: '29',
         nome: 'Avaí Futebol Clube',
         nomeComum: 'Avaí',
@@ -10311,7 +10311,7 @@ const times = [
         cor1: '#2E94BC',
         cor2: 'white',
       },
-      '30': {
+      30: {
         id: '30',
         nome: 'Esporte Clube Bahia',
         nomeComum: 'Bahia',
@@ -10324,7 +10324,7 @@ const times = [
         cor1: '#2E94BC',
         cor2: 'red',
       },
-      '5': {
+      5: {
         id: '5',
         nome: 'Botafogo de Futebol e Regatas',
         nomeComum: 'Botafogo',
@@ -10337,7 +10337,7 @@ const times = [
         cor1: 'black',
         cor2: 'white',
       },
-      '33': {
+      33: {
         id: '33',
         nome: 'Ceará Sporting Club',
         nomeComum: 'Ceará',
@@ -10350,7 +10350,7 @@ const times = [
         cor1: 'black',
         cor2: 'white',
       },
-      '695': {
+      695: {
         id: '695',
         nome: 'Associação Chapecoense de Futebol',
         nomeComum: 'Chapecoense',
@@ -10363,7 +10363,7 @@ const times = [
         cor1: '#329B46',
         cor2: 'white',
       },
-      '6': {
+      6: {
         id: '6',
         nome: 'Sport Club Corinthians Paulista',
         nomeComum: 'Corinthians',
@@ -10376,7 +10376,7 @@ const times = [
         cor1: 'black',
         cor2: 'white',
       },
-      '9': {
+      9: {
         id: '9',
         nome: 'Cruzeiro Esporte Clube',
         nomeComum: 'Cruzeiro',
@@ -10389,7 +10389,7 @@ const times = [
         cor1: 'blue',
         cor2: 'white',
       },
-      '1138': {
+      1138: {
         id: '1138',
         nome: 'Centro Sportivo Alagoano',
         nomeComum: 'CSA',
@@ -10402,7 +10402,7 @@ const times = [
         cor1: '#4169E1',
         cor2: 'white',
       },
-      '1': {
+      1: {
         id: '1',
         nome: 'Clube de Regatas do Flamengo',
         nomeComum: 'Flamengo',
@@ -10415,7 +10415,7 @@ const times = [
         cor1: 'red',
         cor2: 'black',
       },
-      '11': {
+      11: {
         id: '11',
         nome: 'Fluminense Football Club',
         nomeComum: 'Fluminense',
@@ -10428,7 +10428,7 @@ const times = [
         cor1: '#329B46',
         cor2: '#A81A31',
       },
-      '35': {
+      35: {
         id: '35',
         nome: 'Fortaleza Esporte Clube',
         nomeComum: 'Fortaleza',
@@ -10441,7 +10441,7 @@ const times = [
         cor1: 'blue',
         cor2: 'red',
       },
-      '12': {
+      12: {
         id: '12',
         nome: 'Goiás Esporte Clube',
         nomeComum: 'Goiás',
@@ -10454,7 +10454,7 @@ const times = [
         cor1: 'green;',
         cor2: 'white',
       },
-      '13': {
+      13: {
         id: '13',
         nome: 'Grêmio Foot-Ball Porto-Alegrense',
         nomeComum: 'Grêmio',
@@ -10467,7 +10467,7 @@ const times = [
         cor1: '#2E94BC',
         cor2: 'white',
       },
-      '15': {
+      15: {
         id: '15',
         nome: 'Sport Club Internacional',
         nomeComum: 'Internacional',
@@ -10480,7 +10480,7 @@ const times = [
         cor1: 'white',
         cor2: 'red',
       },
-      '17': {
+      17: {
         id: '17',
         nome: 'Sociedade Esportiva Palmeiras',
         nomeComum: 'Palmeiras',
@@ -10493,7 +10493,7 @@ const times = [
         cor1: '#329B46;#EA5A1B',
         cor2: 'white',
       },
-      '22': {
+      22: {
         id: '22',
         nome: 'Santos Futebol Clube',
         nomeComum: 'Santos',
@@ -10506,7 +10506,7 @@ const times = [
         cor1: '#282C32',
         cor2: 'white',
       },
-      '24': {
+      24: {
         id: '24',
         nome: 'São Paulo Futebol Clube',
         nomeComum: 'São Paulo',
@@ -10519,7 +10519,7 @@ const times = [
         cor1: 'red',
         cor2: 'black',
       },
-      '25': {
+      25: {
         id: '25',
         nome: 'Clube de Regatas Vasco da Gama',
         nomeComum: 'Vasco',
