@@ -18,11 +18,13 @@
 
   .sub-nome {
     font-size: 20px;
+    font-family: 'Pangolin', 'Signika', sans-serif;
   }
 
   .nome {
     font-size: 25px;
     color: #2195f3cb;
+    font-family: 'Pangolin', 'Signika', sans-serif;
   }
 
   .sobre {
@@ -36,6 +38,7 @@
   .title-sobre {
     font-size: 30px;
     text-align: center;
+    font-family: 'Signika', sans-serif;
   }
 }
 
@@ -46,6 +49,11 @@
 
   .nome {
     color: #2195f3cb;
+    font-family: 'Pangolin', 'Signika', sans-serif;
+  }
+
+  .sub-nome {
+    font-family: 'Pangolin', 'Signika', sans-serif;
   }
 
   .sobre {
@@ -57,6 +65,8 @@
   }
   .title-sobre {
     text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 32px;
   }
 }
 

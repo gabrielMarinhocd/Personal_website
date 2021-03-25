@@ -59,12 +59,6 @@ const menu = [
     link: './Projetos/Brasileirão/index.html',
     img: './Imagens/projetos-img/Tabela-Brasileirao.png',
   },
-  {
-    id: 'tabela-brasileirão',
-    titulo: 'Tabela do Brasileirão',
-    link: './Projetos/Brasileirão/index.html',
-    img: './Imagens/projetos-img/Tabela-Brasileirao.png',
-  },
 ];
 
 const menuTrabalhos = [
