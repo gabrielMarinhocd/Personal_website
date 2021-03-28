@@ -179,5 +179,35 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  padding: 1px;
+  padding: 0px;
+}
+
+#menu12 {
+  background-color: #0d47a1;
+}
+
+.icons-mobile-footer:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border: -5px;
+}
+
+.linkedin:hover img {
+  background-color: #0a66c2;
+}
+
+.whatsapp:hover img {
+  background-color: rgba(9, 255, 38, 0.592);
+}
+
+.github:hover img {
+  background-color: #f500fd97;
+}
+
+.icons-mobile-footer img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
