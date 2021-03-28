@@ -82,7 +82,7 @@
   </ul>
 
   <div class="container ">
-    <div class="conteudo z-depth-1" id="meusDados">
+    <div class="conteudo " id="meusDados">
       <div class="meus-dados">
         <div class="animate__animated animate__fadeIn animate__slow animate__delay-1s">
           <img class="minha-foto z-depth-4" src="./Imagens/foto-Gabriel.png" alt="" />
@@ -108,7 +108,7 @@
       </div>
     </div>
 
-    <div class="conteudo z-depth-1" id="boasVindas">
+    <div class="conteudo " id="boasVindas">
       <div class="sobre  animate__animated animate__fadeIn animate__delay-5s">
         <h3 class="title-sobre">Boas vindas</h3>
         <p class="texto">
@@ -124,7 +124,7 @@
       </div>
     </div>
 
-    <div class="conteudo z-depth-1" id="formacaoAcademica">
+    <div class="conteudo " id="formacaoAcademica">
       <div class="sobre  center  animate__animated animate__fadeIn animate__delay-5s">
         <h4 class="title-sobre">Formação acadêmica</h4>
 
@@ -150,7 +150,7 @@
               <li>
                 <div class="collapsible-header">Analise e Desenvolvimento de Sistemas</div>
                 <div class="collapsible-body">
-                  <span>Cursando 3° semestre na UNIP - Brasilia</span>
+                  <span>Cursando 3° semestre na UNIP - Brasília</span>
                   <br />
                   <a href="https://www.uniplandf.edu.br/" target="_blank" rel="noopener noreferrer">Visitar site</a>
                 </div>
@@ -201,7 +201,7 @@
       </div>
     </div>
 
-    <div class="conteudo z-depth-1" id="projetos">
+    <div class="conteudo " id="projetos">
       <div class="sobre animate__animated animate__fadeIn animate__delay-5s">
         <h3 class="title-sobre">Meus projetos</h3>
         <div class="carousel" id="carousel">
@@ -210,7 +210,7 @@
       </div>
     </div>
 
-    <div class="conteudo z-depth-1" id="trabalhos">
+    <div class="conteudo " id="trabalhos">
       <div class="sobre animate__animated animate__fadeIn animate__delay-5s">
         <h3 class="title-sobre">Trabalhos</h3>
         <div class="carousel" id="carouselTrabalhos">
@@ -219,7 +219,7 @@
       </div>
     </div>
 
-    <div class="conteudo z-depth-1" id="contato">
+    <div class="conteudo " id="contato">
       <div class="sobre contato center animate__animated animate__fadeIn animate__delay-5s">
         <h3 class="title-sobre">Contato</h3>
         <ul>
@@ -237,15 +237,13 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="conteudo z-depth-1">
       <div class="redes-sociais animate__animated animate__fadeIn animate__delay-5s" id="redes-sociais">
         <!--Conteudo do array  redes-sociais  -->
       </div>
     </div>
 
-    <div class="conteudo z-depth-1" id="boasVindas">
+
+    <div class="conteudo " id="boasVindas">
       <div class="sobre feedback animate__animated animate__fadeIn animate__delay-5s">
         <div class="row">
           <div class="col s12">
@@ -296,7 +294,8 @@
   </div>
   <br />
 
-  <footer>
+
+  <footer class="desktop">
     <div id="whatswidget-pre-wrapper" class="">
       <div id="whatswidget-widget-wrapper" class="whatswidget-widget-wrapper" style="all:revert;">
         <div id="whatswidget-conversation" class="whatswidget-conversation"
@@ -498,6 +497,40 @@
     </div>
   </footer>
 
+  <div class="container mobile">
+    <div class="fixed-action-btn">
+      <div id="menu-footer" class="deactivate">
+        <div class=" animate__animated animate__fadeIn ">
+          <a href="http://
+          " target="_blank" rel="noopener noreferrer">
+            <img class="social-media" src="./Imagens/whatsapp.svg" alt="">
+          </a>
+
+        </div>
+        <div class=" animate__animated animate__fadeIn animate__fast ">
+          <a href="http://
+          " target="_blank" rel="noopener noreferrer">
+            <img class="social-media" src="./Imagens/linkedin.svg" alt="">
+          </a>
+        </div>
+        <div class=" animate__animated animate__fadeIn animate__faster">
+          <a href="http://" target="_blank" rel="noopener noreferrer">
+            <img class="social-media" src="./Imagens/github-logo_icon-icons.com_73546.png" alt="">
+          </a>
+        </div>
+      </div>
+
+      <a id="menu12" class="waves-effect waves-light btn btn-floating"><i class="material-icons">menu</i></a>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
   <script src="./js/feedback.js"></script>
   <script src="./js/funcoes.js"></script>
   <script src="./js/conteudo.js"></script>
@@ -514,6 +547,12 @@
     $(document).ready(function () {
       $('.carousel').carousel();
     });
+
+    $(document).ready(function () {
+      $('.tap-target').tapTarget();
+    });
+
+
   </script>
 </body>
 

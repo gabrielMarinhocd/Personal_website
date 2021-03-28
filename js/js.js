@@ -11,6 +11,9 @@ window.addEventListener('load', () => {
     let elems = document.querySelectorAll('.dropdown-trigger1');
     let instances = M.Dropdown.init(elems, options);
   });
+
+  const buttonFooter = document.querySelector('#menu12');
+  buttonFooter.addEventListener('click', menuFooter);
 });
 
 const verificaHora = async () => {
@@ -164,11 +167,28 @@ const agradecimento = (res) => {
   }
 };
 
+let op = 0;
+const menuFooter = () => {
+  const showIcons = document.querySelector('#menu-footer');
+  let log;
+
+  if (op === 0) {
+    let log = showIcons.classList.remove('deactivate');
+    showIcons.classList.add('active');
+    op = 1;
+  } else {
+    const log = showIcons.classList.remove('active');
+    showIcons.classList.add('deactivate');
+    op = 0;
+  }
+};
+
 insertMenuDropdown();
 insertMenuDropdownTrabalhos();
 insertCarosel();
 insertCaroselTrabalhos();
 inserRedesSociais();
+
 const inputValue = document.querySelector('#form');
 inputValue.addEventListener('submit', (event) => event.preventDefault());
 
