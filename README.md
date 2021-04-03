@@ -45,8 +45,8 @@
     <ul>
       <li>HTML/CSS</li>
       <li>Javascript</li>
-      <li>Materialise.css(Framwork)</li>
-      <li>Animeted.css (Framwork)</li>
+      <li>Materialise.css(Framework)</li>
+      <li>Animeted.css (Framework)</li>
       <li><a src="https://github.com/gabrielMarinhocd/registra_feedback">Api Feedback (Salva no banco de dados e envia email) </a></li>
     </ul>
   </div>
