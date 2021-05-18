@@ -106,7 +106,7 @@ const redesSociais = [
   },
   {
     id: 'email',
-    link: 'https://www.linkedin.com/in/gabriel-marinho-5094bb132',
+    link: 'http://linkedin.com/in/gabriel-marinho-bsb',
     img: './Imagens/linkedin-sign_icon-icons.com_73508.png',
   },
 ];
