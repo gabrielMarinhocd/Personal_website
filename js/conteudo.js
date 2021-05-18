@@ -74,21 +74,35 @@ const menuTrabalhos = [
     titulo: 'Império Jóias - Teige',
     link: 'http://imperiojoias.pagina-oficial.ws/',
     subTitulo: 'Wordpress',
-    img: './Imagens/wordpress.png',
+    img: './Imagens/projetos-img/imperio-joias.png',
   },
   {
     id: 'martelinhho',
     titulo: 'Martelinho de Ouro - Teige',
     link: 'http://martelinhodeouro.siteoficial.ws/',
     subTitulo: 'Wordpress',
-    img: './Imagens/wordpress.png',
+    img: './Imagens/projetos-img/martelinho-de-ouro.png',
   },
   {
     id: 'studiojo',
     titulo: 'Studio Jo - Teige',
     link: 'http://studiojo.paginaoficial.ws/',
     subTitulo: 'Wordpress',
-    img: './Imagens/wordpress.png',
+    img: './Imagens/projetos-img/studiojo.png',
+  },
+  {
+    id: 'timesstyle',
+    titulo: 'Timeestyle Relógios',
+    link: 'http://timestyle.siteprofissional.com',
+    subTitulo: 'Wordpress',
+    img: './Imagens/projetos-img/timestyle.png',
+  },
+  {
+    id: 'teigetour',
+    titulo: 'Teigetour - Teige',
+    link: 'https://teigetour.com.br/',
+    subTitulo: 'Wordpress',
+    img: './Imagens/projetos-img/teige.png',
   },
 ];
 
@@ -105,8 +119,8 @@ const redesSociais = [
     img: './Imagens/github-logo_icon-icons.com_73546.png',
   },
   {
-    id: 'email',
-    link: 'http://linkedin.com/in/gabriel-marinho-bsb',
+    id: 'linkedim',
+    link: 'http://www.linkedin.com/in/gabriel-marinho-bsb',
     img: './Imagens/linkedin-sign_icon-icons.com_73508.png',
   },
 ];
