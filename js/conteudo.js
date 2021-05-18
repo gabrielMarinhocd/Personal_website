@@ -72,7 +72,7 @@ const menuTrabalhos = [
   {
     id: 'imperiojoias',
     titulo: 'Império Jóias - Teige',
-    link: 'https://gabriel-react-countries.herokuapp.com/',
+    link: 'http://imperiojoias.pagina-oficial.ws/',
     subTitulo: 'Wordpress',
     img: './Imagens/wordpress.png',
   },
