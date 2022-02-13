@@ -8,8 +8,78 @@
 
 
 <url>
-  <loc>https://gabrielmarinho.site/</loc>
+  <loc>http://gabrielmsantos.com.br/</loc>
   <lastmod>2020-12-06T01:56:18+00:00</lastmod>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>http://gabrielmsantos.com.br/#boasVindas</loc>
+  <lastmod>2020-12-06T01:56:18+00:00</lastmod>
+  <priority>1.0</priority>
+</url>
+
+<url>
+  <loc>http://gabrielmsantos.com.br/#projetos</loc>
+  <lastmod>2020-12-06T01:56:18+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://gabrielmsantos.com.br/#trabalhos</loc>
+  <lastmod>2020-12-06T01:56:18+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://gabrielmsantos.com.br/#contato</loc>
+  <lastmod>2020-12-06T01:56:18+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+
+    
+<url>
+  <loc>http://gabrielmsantos.com.br/Projetos/App_Mata_Mosquito/inicio_jogo.html</loc>
+  <lastmod>2020-12-06T01:56:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://gabrielmsantos.com.br/Projetos/Pesquisa-de-usuarios/index.html</loc>
+  <lastmod>2020-12-06T01:56:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://gabrielmsantos.com.br/Projetos/pokedex-master/index.html</loc>
+  <lastmod>2020-12-06T01:56:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://gabrielmsantos.com.br/Projetos/radio-podcast-pronto/index.html</loc>
+  <lastmod>2020-12-06T01:56:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://gabrielmsantos.com.br/Projetos/Manipulando_cores/index.html</loc>
+  <lastmod>2020-12-06T01:56:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://gabrielmsantos.com.br/Projetos/Brasileir%C3%A3o/index.html</loc>
+  <lastmod>2020-12-06T01:56:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>http://www.gabrielmsantos.com.br/Doumentos/Gabriel_Marinho_Bootcamp_Full_Stack%20.pdf</loc>
+  <lastmod>2020-12-18T18:41:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.gabrielmsantos.com.br/Doumentos/Certificate-Scrum_compressed.pdf</loc>
+  <lastmod>2020-12-18T18:41:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.gabrielmsantos.com.br/Doumentos/Curriculo_Desenvolvedor-GABRIEL_MARINHO_DOS_SANTOS_compressed.pdf</loc>
+  <lastmod>2021-12-20T15:52:26+00:00</lastmod>
+  <priority>0.90</priority>
 </url>
 
 
